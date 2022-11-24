@@ -23,13 +23,6 @@
           class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
         >
           <div class="md:pl-4 lg:pl-12 xl:pl-16">
-            <!-- <div
-              class="font-architects-daughter text-xl text-purple-600 mb-2"
-              data-aos="fade-left"
-              data-aos-anchor="[data-aos-id-target]"
-            >
-              Be the change you want to see
-            </div> -->
             <div
               class="mt-6"
               data-aos="fade-left"
@@ -79,6 +72,15 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+        <div data-aos="fade-up" data-aos-delay="400">
+          <a
+            class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+            href="#0"
+            >SCOPRI TUTTI I SERVIZI</a
+          >
         </div>
       </div>
 
