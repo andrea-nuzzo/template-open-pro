@@ -22,9 +22,9 @@
         <div
           class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
         >
-          <div class="md:pl-4 lg:pl-12 xl:pl-16">
+          <div class="mx-auto p-10">
             <div
-              class="mt-6"
+              class="m-10"
               data-aos="fade-left"
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-target]"
@@ -40,7 +40,7 @@
               </p>
             </div>
             <div
-              class="mt-6"
+              class="m-10"
               data-aos="fade-left"
               data-aos-delay="400"
               data-aos-anchor="[data-aos-id-target]"
@@ -57,7 +57,7 @@
               </p>
             </div>
             <div
-              class="mt-6"
+              class="m-10"
               data-aos="fade-left"
               data-aos-delay="600"
               data-aos-anchor="[data-aos-id-target]"
@@ -67,8 +67,25 @@
                 e crowdfunding
               </h4>
               <p class="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Sono un reale accesso al credito. Ricerca bandi e fondi con un
+                clic e il modulo di adesione si compila in automatico. Zero
+                commissioni e zero spese. Ora puoi davvero farcela.
+              </p>
+            </div>
+            <div
+              class="m-10"
+              data-aos="fade-left"
+              data-aos-delay="600"
+              data-aos-anchor="[data-aos-id-target]"
+            >
+              <h4 class="h4 mb-2">
+                <span class="text-pink-500">.</span> Apertura nuova attività e
+                studi di fattibilità
+              </h4>
+              <p class="text-lg text-gray-400">
+                Servizi veloci e indispensabili per una nuova apertura. Annulla
+                ogni rischio e usa la nostra innovazione per avere successo.
+                Abbiamo creato dei pacchetti molto performanti.
               </p>
             </div>
           </div>
