@@ -59,12 +59,9 @@
                 stroke-linecap="square"
               />
             </svg>
-            <h4 class="h4 mb-2">
-              <span class="text-gray-400">1</span>. Acquisition
-            </h4>
+            <h4 class="h4 mb-2">Ticket illimitati gratuiti</h4>
             <p class="text-lg text-gray-400 text-center">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
+              Ricevi risposta entro 24 ore
             </p>
           </div>
 
@@ -111,12 +108,9 @@
                 />
               </g>
             </svg>
-            <h4 class="h4 mb-2">
-              <span class="text-gray-400">2</span>. Activation
-            </h4>
+            <h4 class="h4 mb-2">Video consulenze</h4>
             <p class="text-lg text-gray-400 text-center">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
+              Accesso tramite prenotazione dalla tua area riservata.
             </p>
           </div>
 
@@ -152,12 +146,9 @@
                 stroke-linecap="square"
               />
             </svg>
-            <h4 class="h4 mb-2">
-              <span class="text-gray-400">3</span>. Retention
-            </h4>
+            <h4 class="h4 mb-2">Pratiche immediate</h4>
             <p class="text-lg text-gray-400 text-center">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
+              Puoi richiedere documenti e attivare servizi con un clic.
             </p>
           </div>
         </div>
