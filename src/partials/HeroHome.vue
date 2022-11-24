@@ -20,11 +20,11 @@
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <h1 class="h1 mb-4" data-aos="fade-up">Landing template for startups</h1>
-          <p class="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+          <h1 class="h1 mb-4" data-aos="fade-up">Il Centro Servizi tutto in un clic.</h1>
+          <p class="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Apri, gestisci, risolleva e fai crescere la tua impresa.</p>
           <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div data-aos="fade-up" data-aos-delay="400">
-              <a class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
+              <a class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">TESSERATI ORA</a>
             </div>
             <div data-aos="fade-up" data-aos-delay="600">
               <a class="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
