@@ -204,6 +204,8 @@
         <BlogListQ />
       </div>
 
+      <NewsletterQ />
+
       <!-- <FeaturesHome /> -->
       <!-- <Tabs /> -->
       <!-- <Target /> -->
@@ -228,6 +230,7 @@ import News from "./../partials/News.vue";
 import Newsletter from "./../partials/Newsletter.vue";
 import FeaturesBlocksQ from "./../partials/FeaturesBlocksQ.vue";
 import BlogListQ from "./../partials/BlogListQ.vue";
+import NewsletterQ from "./../partials/NewsletterQ.vue";
 import Footer from "./../partials/Footer.vue";
 
 export default {
@@ -244,6 +247,7 @@ export default {
     Newsletter,
     FeaturesBlocksQ,
     BlogListQ,
+    NewsletterQ,
     Footer,
   },
 };
