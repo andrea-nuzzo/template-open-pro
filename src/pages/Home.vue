@@ -85,6 +85,41 @@
       </div>
 
       <ProcessQ class="mt-10" />
+
+      <!-- Chi può tesserarsi -->
+      <div class="text-center mt-10 mb-10" data-aos-id-target>
+        <div
+          class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+        >
+          <div class="md:pl-4 lg:pl-12 xl:pl-16">
+            <div
+              class="mt-6"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              data-aos-anchor="[data-aos-id-target]"
+            >
+              <h4 class="h4 mb-2">Chi può tesserarsi?</h4>
+              <p class="text-lg text-gray-400 m-6">
+                Professionisti, micro imprese, aziende e privati con intenzione
+                di aprire un'attività.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+          <div data-aos="fade-up" data-aos-delay="400">
+            <a
+              class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+              href="#0"
+              >TESSERATI ORA</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Tre vantaggi per te -->
+      <FeaturesBlocksQ />
+
       <!-- <FeaturesHome /> -->
       <!-- <Tabs /> -->
       <!-- <Target /> -->
@@ -107,6 +142,7 @@ import Tabs from "./../partials/Tabs.vue";
 import Target from "./../partials/Target.vue";
 import News from "./../partials/News.vue";
 import Newsletter from "./../partials/Newsletter.vue";
+import FeaturesBlocksQ from "./../partials/FeaturesBlocksQ.vue";
 import Footer from "./../partials/Footer.vue";
 
 export default {
@@ -121,6 +157,7 @@ export default {
     Target,
     News,
     Newsletter,
+    FeaturesBlocksQ,
     Footer,
   },
 };
