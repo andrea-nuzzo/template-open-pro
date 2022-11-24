@@ -64,10 +64,10 @@
               <a
                 class="btn text-purple-600 bg-purple-100 hover:bg-white shadow"
                 href="#0"
-                >Subscribe</a
+                >Iscriviti</a
               >
             </div>
-            <div class="flex justify-between">
+            <div class="flex justify-between mt-2">
               <div class="consent">
                 <input type="radio" value="consent" name="consent" />
                 <label for="consent" class="pl-2">
