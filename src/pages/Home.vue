@@ -3,6 +3,7 @@
 
     <!-- Site header -->
     <Header />
+    <AboutHeroTidy/>
 
     <!-- Page content -->
     <main class="grow">

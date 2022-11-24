@@ -11,6 +11,7 @@ import SignIn from './pages/SignIn.vue'
 import SignUp from './pages/SignUp.vue'
 import ResetPassword from './pages/ResetPassword.vue'
 import PageNotFound from './pages/PageNotFound.vue'
+import becomeSalesperson from "./pages/becomeSalespersonQ.vue";
 
 const routerHistory = createWebHistory()
 
@@ -57,6 +58,10 @@ const router = createRouter({
     {
       path: '/help',
       component: Help
+    },
+    {
+      path: '/diventa-rappresentante',
+      component: becomeSalesperson,
     },
     {
       path: '/signin',
