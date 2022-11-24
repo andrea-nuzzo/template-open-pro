@@ -84,12 +84,12 @@
         </div>
       </div>
 
-      <!-- <Process />
-      <FeaturesHome />
-      <Tabs />
-      <Target />
-      <News />
-      <Newsletter /> -->
+      <ProcessQ class="mt-10" />
+      <!-- <FeaturesHome /> -->
+      <!-- <Tabs /> -->
+      <!-- <Target /> -->
+      <!-- <News /> -->
+      <!-- <Newsletter /> -->
     </main>
 
     <!-- Site footer -->
@@ -101,7 +101,7 @@
 import Header from "./../partials/Header.vue";
 import PageIllustration from "./../partials/PageIllustration.vue";
 import HeroHomeQ from "./../partials/HeroHomeQ.vue";
-import Process from "./../partials/Process.vue";
+import ProcessQ from "./../partials/ProcessQ.vue";
 import FeaturesHome from "./../partials/FeaturesHome.vue";
 import Tabs from "./../partials/Tabs.vue";
 import Target from "./../partials/Target.vue";
@@ -115,7 +115,7 @@ export default {
     Header,
     PageIllustration,
     HeroHomeQ,
-    Process,
+    ProcessQ,
     FeaturesHome,
     Tabs,
     Target,
