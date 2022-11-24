@@ -108,7 +108,7 @@
         <div
           class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
         >
-          <div class="md:pl-4 lg:pl-12 xl:pl-16">
+          <div class="mx-auto">
             <div
               class="mt-6"
               data-aos="fade-left"
@@ -137,6 +137,73 @@
       <!-- Tre vantaggi per te -->
       <FeaturesBlocksQ />
 
+      <!-- Riportare persone a comprare nei negozi -->
+      <div
+        class="relative pb-10 md:pt-40 md:pb-16 bg-no-repeat bg-cover bg-[url('https://picsum.photos/id/237/1000/1000')]"
+      >
+        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <h1 class="h1 mb-4" data-aos="fade-up">
+            Come riportare le persone a comprare nei negozi.
+          </h1>
+          <p
+            class="text-xl text-gray-400 mb-8"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            Rendendo le economie locali più competitive e superando i benefici
+            dati dai colossi delle vendite online.
+          </p>
+          <p
+            class="text-xl text-gray-400 mb-8"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            Abbiamo creato nuovi strumenti web e stravolto tutto.
+          </p>
+          <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div data-aos="fade-up" data-aos-delay="400">
+              <a
+                class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                href="#0"
+                >FACCIAMO RETE PER VINCERE</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog -->
+      <div class="text-center mt-10 mb-10" data-aos-id-target>
+        <div
+          class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+        >
+          <div class="mx-auto">
+            <div
+              class="mt-6"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              data-aos-anchor="[data-aos-id-target]"
+            >
+              <h4 class="h4 mb-2">Leggi Quiblog.it</h4>
+              <p class="text-lg text-gray-400 m-6">
+                Qui puoi anche richiedere di approfondire argomenti e accedere a
+                contenuti premium gratuiti.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+          <div data-aos="fade-up" data-aos-delay="400">
+            <a
+              class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+              href="#0"
+              >VAI AL BLOG</a
+            >
+          </div>
+        </div>
+        <BlogListQ />
+      </div>
+
       <!-- <FeaturesHome /> -->
       <!-- <Tabs /> -->
       <!-- <Target /> -->
@@ -160,6 +227,7 @@ import Target from "./../partials/Target.vue";
 import News from "./../partials/News.vue";
 import Newsletter from "./../partials/Newsletter.vue";
 import FeaturesBlocksQ from "./../partials/FeaturesBlocksQ.vue";
+import BlogListQ from "./../partials/BlogListQ.vue";
 import Footer from "./../partials/Footer.vue";
 
 export default {
@@ -175,6 +243,7 @@ export default {
     News,
     Newsletter,
     FeaturesBlocksQ,
+    BlogListQ,
     Footer,
   },
 };
