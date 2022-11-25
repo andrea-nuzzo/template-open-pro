@@ -136,7 +136,7 @@
       </div>
 
       <!-- Tre vantaggi per te -->
-      <FeaturesBlocksQ />
+      <FeaturesBlocksQ ctaText1="MAGGIORI INFO" ctaText2="MAGGIORI INFO" />
 
       <!-- Riportare persone a comprare nei negozi -->
       <div

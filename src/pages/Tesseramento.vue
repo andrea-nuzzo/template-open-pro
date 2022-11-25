@@ -37,6 +37,7 @@
           </div>
         </div>
       </div>
+      <FeaturesBlocksQ ctaText1="TESSERATI ORA" ctaText2="TESSERATI ORA" />
     </main>
 
     <!-- Site footer -->
@@ -48,6 +49,7 @@
 import Header from "./../partials/Header.vue";
 import PageIllustration from "../partials/PageIllustration.vue";
 import HeroAboutQ from "../partials/becomeSalespersonQ/HeroAboutQ.vue";
+import FeaturesBlocksQ from "../partials/FeaturesBlocksQ.vue";
 import FaqsQ from "./../partials/FaqsQ.vue";
 import Footer from "./../partials/Footer.vue";
 
@@ -57,6 +59,7 @@ export default {
     Header,
     PageIllustration,
     HeroAboutQ,
+    FeaturesBlocksQ,
     FaqsQ,
     Footer,
   },
