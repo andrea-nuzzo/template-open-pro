@@ -41,6 +41,43 @@
       <!-- Kit del tesserato -->
       <FeaturesZigzagQ />
       <FaqsShortQ />
+      <HeroFeaturesQ />
+      <div class="w-full flex items-center justify-center pt-6 md:pt-8 lg:pt-12">
+        <div
+          class="relative flex items-center"
+          data-aos="fade-up"
+          data-aos-anchor="[data-aos-id-blocks]"
+        >
+          <svg
+            class="w-16 h-16 mb-4 pr-4"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              class="fill-current text-purple-600"
+              width="64"
+              height="64"
+              rx="32"
+            />
+            <path
+              class="stroke-current text-purple-100"
+              d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924"
+              stroke-linecap="square"
+              stroke-width="2"
+              fill="none"
+              fill-rule="evenodd"
+            />
+            <path
+              class="stroke-current text-purple-300"
+              d="M43 42h-9M43 37h-9"
+              stroke-linecap="square"
+              stroke-width="2"
+            />
+          </svg>
+          <h4 class="h4 mb-2 text-center">La tua area riservata sarà attivata e operativa dal 1 gennaio 2023.</h4>
+
+        </div>
+      </div>
     </main>
 
     <!-- Site footer -->
@@ -52,6 +89,7 @@
 import Header from "./../partials/Header.vue";
 import PageIllustration from "../partials/PageIllustration.vue";
 import HeroAboutQ from "../partials/becomeSalespersonQ/HeroAboutQ.vue";
+import HeroFeaturesQ from "../partials/HeroFeaturesQ.vue";
 import FeaturesBlocksQ from "../partials/FeaturesBlocksQ.vue";
 import FaqsQ from "./../partials/FaqsQ.vue";
 import FaqsShortQ from "./../partials/FaqsShortQ.vue";
@@ -64,6 +102,7 @@ export default {
     Header,
     PageIllustration,
     HeroAboutQ,
+    HeroFeaturesQ,
     FeaturesBlocksQ,
     FeaturesZigzagQ,
     FaqsQ,
