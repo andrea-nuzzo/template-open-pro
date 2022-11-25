@@ -22,7 +22,7 @@
               <p class="text-lg text-gray-400">Gratuite e senza limiti.</p>
             </div>
           </li>
-          <li class="flex md:justify-start">
+          <li class="flex md:justify-start order-4 md:order-2">
             <div
               class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
             >
@@ -37,7 +37,7 @@
               </p>
             </div>
           </li>
-          <li class="flex md:justify-start">
+          <li class="flex md:justify-start order-2 md:order-3">
             <div
               class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
             >
@@ -51,9 +51,9 @@
               </p>
             </div>
           </li>
-          <li class="flex md:justify-start">
+          <li class="flex md:justify-start order-5 md:order-4">
             <div
-              class="inline-flex items-center relative md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
+              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
             >
               5
             </div>
@@ -66,7 +66,7 @@
               </p>
             </div>
           </li>
-          <li class="flex md:justify-start">
+          <li class="flex md:justify-start order-3 md:order-5">
             <div
               class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
             >
@@ -79,7 +79,7 @@
               </p>
             </div>
           </li>
-          <li class="flex md:justify-start">
+          <li class="flex md:justify-start order-6">
             <div
               class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
             >
