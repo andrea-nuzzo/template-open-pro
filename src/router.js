@@ -12,6 +12,7 @@ import SignUp from './pages/SignUp.vue'
 import ResetPassword from './pages/ResetPassword.vue'
 import PageNotFound from './pages/PageNotFound.vue'
 import becomeSalesperson from "./pages/becomeSalespersonQ.vue";
+import Tesseramento from './pages/Tesseramento.vue';
 
 const routerHistory = createWebHistory()
 
@@ -74,6 +75,10 @@ const router = createRouter({
     {
       path: '/reset-password',
       component: ResetPassword
+    },
+    {
+      path: '/tesseramento',
+      component: Tesseramento
     },
     {
       path: '/:pathMatch(.*)*',

@@ -13,10 +13,10 @@
       </div>
 
       <!-- Page sections -->
-      <HeroAboutQ :title="'DIVENTA RAPPRESENTANTE'" />
-      <TimelineQ />
-      <FeaturesBlocksQ/>
-      <FormSalespersonQ/>
+       <HeroAboutQ :title="'TESSERAMENTO'"/>
+      <!-- <TimelineQ /> -->
+      <!-- <FeaturesBlocksQ/> -->
+      <!-- <FormSalespersonQ/> -->
 
     </main>
 
@@ -30,20 +30,20 @@
 import Header from './../partials/Header.vue'
 import PageIllustration from '../partials/PageIllustration.vue'
 import HeroAboutQ from '../partials/becomeSalespersonQ/HeroAboutQ.vue'
-import TimelineQ from '../partials/becomeSalespersonQ/TimelineQ.vue'
-import FeaturesBlocksQ from "../partials/becomeSalespersonQ/FeaturesBlocksQ.vue";
-import FormSalespersonQ from "../partials/becomeSalespersonQ/FormSalespersonQ.vue";
+// import TimelineQ from '../partials/becomeSalespersonQ/TimelineQ.vue'
+// import FeaturesBlocksQ from "../partials/becomeSalespersonQ/FeaturesBlocksQ.vue";
+// import FormSalespersonQ from "../partials/becomeSalespersonQ/FormSalespersonQ.vue";
 import Footer from './../partials/Footer.vue'
 
 export default {
   name: 'becomeSalesperson',
   components: {
-    FormSalespersonQ,
-    FeaturesBlocksQ,
+    // FormSalespersonQ,
+    // FeaturesBlocksQ,
     Header,
     PageIllustration,
     HeroAboutQ,
-    TimelineQ,
+    // TimelineQ,
     Footer,
   },
 };
