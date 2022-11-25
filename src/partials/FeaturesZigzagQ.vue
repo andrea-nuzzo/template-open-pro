@@ -32,27 +32,42 @@
               <div class="md:pl-4 lg:pl-12 xl:pl-16">
                 <ul class="text-lg text-gray-400 -mb-2">
                   <li class="flex items-start mb-2">
-                    1. <span class="pl-2">
+                    1.
+                    <span class="pl-2">
                       Tessera Quisviluppo.com, simbolo del tesseramento.</span
                     >
                   </li>
                   <li class="flex items-start mb-2">
-                    2. <span class="pl-2">Quickly Card Prepagata per il cashback.</span>
+                    2.
+                    <span class="pl-2"
+                      >Quickly Card Prepagata per il cashback.</span
+                    >
                   </li>
                   <li class="flex items-start">
-                    3. <span class="pl-2"
+                    3.
+                    <span class="pl-2"
                       >Display da banco, da posizionare nel punto più
                       visibile.</span
                     >
                   </li>
                   <li class="flex items-start">
-                    4. <span class="pl-2"
+                    4.
+                    <span class="pl-2"
                       >Adesivo per vetrina, da applicare sulla vetrina
                       principale.</span
                     >
                   </li>
                 </ul>
               </div>
+            </div>
+          </div>
+          <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div data-aos="fade-up" data-aos-delay="400">
+              <a
+                class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                href="#0"
+                >TESSERATI ORA</a
+              >
             </div>
           </div>
         </div>
