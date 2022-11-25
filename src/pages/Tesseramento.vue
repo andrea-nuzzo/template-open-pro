@@ -38,6 +38,8 @@
         </div>
       </div>
       <FeaturesBlocksQ ctaText1="TESSERATI ORA" ctaText2="TESSERATI ORA" />
+      <!-- Kit del tesserato -->
+      <FeaturesZigzagQ />
     </main>
 
     <!-- Site footer -->
@@ -51,6 +53,7 @@ import PageIllustration from "../partials/PageIllustration.vue";
 import HeroAboutQ from "../partials/becomeSalespersonQ/HeroAboutQ.vue";
 import FeaturesBlocksQ from "../partials/FeaturesBlocksQ.vue";
 import FaqsQ from "./../partials/FaqsQ.vue";
+import FeaturesZigzagQ from "../partials/FeaturesZigzagQ.vue";
 import Footer from "./../partials/Footer.vue";
 
 export default {
@@ -60,6 +63,7 @@ export default {
     PageIllustration,
     HeroAboutQ,
     FeaturesBlocksQ,
+    FeaturesZigzagQ,
     FaqsQ,
     Footer,
   },
