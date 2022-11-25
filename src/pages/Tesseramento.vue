@@ -42,7 +42,7 @@
       <FeaturesZigzagQ />
       <FaqsShortQ />
       <HeroFeaturesQ />
-      <div class="w-full flex items-center justify-center pt-6 md:pt-8 lg:pt-12">
+      <div class="w-full flex items-center justify-center pt-6 md:pt-8 lg:pt-12 pl-20 pr-20">
         <div
           class="relative flex items-center"
           data-aos="fade-up"
