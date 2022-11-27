@@ -11,7 +11,10 @@ import SignIn from './pages/SignIn.vue'
 import SignUp from './pages/SignUp.vue'
 import ResetPassword from './pages/ResetPassword.vue'
 import PageNotFound from './pages/PageNotFound.vue'
-import becomeSalesperson from "./pages/becomeSalespersonQ.vue";
+import becomeSalesperson from "./pages/BecomeSalespersonQ.vue";
+import subscription from "./pages/SubscriptionQ.vue";
+import Success from "./pages/payments/Success.vue";
+import Cancel from "./pages/payments/Cancel.vue";
 
 const routerHistory = createWebHistory()
 
@@ -40,6 +43,15 @@ const router = createRouter({
       component: Pricing
     },
     {
+      path: '/success',
+      component: Success
+    },
+    {
+      path: '/cancel',
+      component: Cancel
+    },
+
+    {
       path: '/blog',
       component: Blog
     },
@@ -62,6 +74,10 @@ const router = createRouter({
     {
       path: '/diventa-rappresentante',
       component: becomeSalesperson,
+    },
+    {
+      path: '/subscription',
+      component: subscription,
     },
     {
       path: '/signin',
