@@ -210,12 +210,13 @@
                     </span>
                   </label>
                   <VeeField
+                      :rules="form.typeUsers === 'company' || form.typeUsers === 'professionals' ? 'required' : ''"
                       v-model="form.vatNumber"
                       :disabled="form.typeUsers === 'individuals' || form.typeUsers === null"
                       name="vatNumber"
                       id="vatNumber"
                       type="number"
-                      :class="{'border-red-500' : errors.vatNumber}, form.typeUsers === 'company' || form.typeUsers === 'professionals' ?'border-gray-200' : 'border-gray-300 ' "
+                      :class="errorBorder(errors.taxCode, 'vatNumber'), form.typeUsers === 'company' || form.typeUsers === 'professionals' ?'border-gray-200' : 'border-gray-300 ' "
                       class="form-input w-full"
                       :placeholder="form.typeUsers === 'company' || form.typeUsers === 'professionals' ? 'Partita IVA' : '' "
                       label="Partia IVA"/>
@@ -234,11 +235,12 @@
                   </label>
                   <VeeField
                       v-model="form.taxCode"
+                      :rules="form.typeUsers === 'individuals' || form.typeUsers === 'professionals' ? 'required' : ''"
                       :disabled="form.typeUsers ==='company' || form.typeUsers === null"
                       name="taxCode"
                       id="taxCode"
                       type="text"
-                      :class="{'border-red-500' : errors.taxCode}, form.typeUsers === 'individuals' || form.typeUsers === 'professionals' ?'border-gray-200' : 'border-gray-300 ' "
+                      :class="errorBorder(errors.taxCode, 'taxCode'), form.typeUsers === 'individuals' || form.typeUsers === 'professionals' ?'border-gray-200' : 'border-gray-300 ' "
                       class="form-input w-full text-gray-200"
                       :placeholder="form.typeUsers === 'individuals' || form.typeUsers === 'professionals' ? 'Codice Fiscale' : '' "
                       label="Codice Fiscale"/>
@@ -317,6 +319,14 @@ export default {
   },
 
   methods: {
+
+    errorBorder(error, id){
+      if(error){
+        let element = document.getElementById(id);
+        element.classList.remove("border-gray-200");
+        element.classList.add("border-red-500")
+      }
+    },
 
     goPayments(){
       alert(this.form)
