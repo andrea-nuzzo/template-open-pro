@@ -22,7 +22,7 @@
             </div>
 
             <!-- Contact form -->
-            <VeeForm class="max-w-xl mx-auto" @submit="goPayments" v-slot="{errors}">
+            <VeeForm class="max-w-xl mx-auto" @submit="submit()" v-slot="{errors}">
 
               <!-- Container first name and last name-->
               <div class="flex flex-wrap -mx-3 mb-4">
@@ -41,7 +41,7 @@
                       id="firstName"
                       type="text"
                       :class="{'border-red-500' : errors.firstName}"
-                      class="form-input w-full text-gray-300"
+                      class="form-input w-full text-gray-200"
                       placeholder="Nome"
                       label="Nome"/>
                   <VeeErrorMessage name="firstName" class="text-red-500 text-sm mt-2"/>
@@ -60,7 +60,7 @@
                       id="lastName"
                       type="text"
                       :class="{'border-red-500' : errors.lastName}"
-                      class="form-input w-full text-gray-300"
+                      class="form-input w-full text-gray-200"
                       placeholder="Cognome"
                       label="Cognome"
                   />
@@ -102,7 +102,7 @@
                       id="password"
                       type="password"
                       :class="{'border-red-500' : errors.password}"
-                      class="form-input w-full text-gray-300"
+                      class="form-input w-full text-gray-200"
                       placeholder="Password"
                       label="Password"/>
                   <VeeErrorMessage name="password" class="text-red-500 text-sm mt-2"/>
@@ -118,7 +118,7 @@
                       rules="confirmed:@password|required"
                       name="passwordConfirmation"
                       id="passwordConfirmation"
-                      type="passwordConfirmation"
+                      type="password"
                       :class="{'border-red-500' : errors.passwordConfirmation}"
                       class="form-input w-full text-gray-300"
                       placeholder="Conferma Password"
@@ -150,50 +150,6 @@
                   <label class="block text-gray-200 text-sm font-medium mb-1" for="individuals">Professionista</label>
                 </div>
                 <VeeErrorMessage name="typeUsers" class="text-red-500 text-sm mt-2"/>
-
-
-
-
-<!--                  &lt;!&ndash; Individuals&ndash;&gt;-->
-<!--                <label class="block text-gray-200 text-sm font-medium mb-1" for="individuals">Privato<span :class="{'text-red-500' : errors.individuals}"> *</span></label>-->
-<!--                <VeeField-->
-<!--                    v-model="form.typeUsers"-->
-<!--                    rules="one_of:individuals,company,professionals"-->
-<!--                    value="individuals"-->
-<!--                    name="typeUsers"-->
-<!--                    id="individuals"-->
-<!--                    type="radio"-->
-<!--                    :class="{'border-red-500' : errors.individuals}"-->
-<!--                    class="form-radio text-purple-600"-->
-<!--                    label="Privato"/>-->
-<!--                <VeeErrorMessage name="individuals" class="text-red-500 text-sm mt-2"/>-->
-
-<!--                  &lt;!&ndash; Company&ndash;&gt;-->
-<!--                <label class="block text-gray-200 text-sm font-medium mb-1" for="company">Azienda<span :class="{'text-red-500' : errors.individuals}"> *</span></label>-->
-<!--                <VeeField-->
-<!--                    v-model="form.typeUsers"-->
-<!--                    value="company"-->
-<!--                    name="typeUsers"-->
-<!--                    id="company"-->
-<!--                    type="radio"-->
-<!--                    :class="{'border-red-500' : errors.company}"-->
-<!--                    class="form-radio text-purple-600"-->
-<!--                    label="Azienda"/>-->
-<!--                <VeeErrorMessage name="company" class="text-red-500 text-sm mt-2"/>-->
-
-<!--                  &lt;!&ndash; Professionals&ndash;&gt;-->
-<!--                <label class="block text-gray-200 text-sm font-medium mb-1" for="professionals">Professionista<span :class="{'text-red-500' : errors.professionals}"> *</span></label>-->
-<!--                <VeeField-->
-<!--                    v-model="form.typeUsers"-->
-<!--                    value="professionals"-->
-<!--                    name="typeUsers"-->
-<!--                    id="professionals"-->
-<!--                    type="radio"-->
-<!--                    :class="{'border-red-500' : errors.professionals}"-->
-<!--                    class="form-radio text-purple-600"-->
-<!--                    label="Professionista"/>-->
-<!--                <VeeErrorMessage name="professionals" class="text-red-500 text-sm mt-2"/>-->
-
               </div>
 
               <!-- Vat number-->
@@ -210,7 +166,7 @@
                     </span>
                   </label>
                   <VeeField
-                      :rules="form.typeUsers === 'company' || form.typeUsers === 'professionals' ? 'required' : ''"
+                      :rules="form.typeUsers === 'company' || form.typeUsers === 'professionals' ? 'required|isValidVatNumber' : ''"
                       v-model="form.vatNumber"
                       :disabled="form.typeUsers === 'individuals' || form.typeUsers === null"
                       name="vatNumber"
@@ -235,7 +191,7 @@
                   </label>
                   <VeeField
                       v-model="form.taxCode"
-                      :rules="form.typeUsers === 'individuals' || form.typeUsers === 'professionals' ? 'required' : ''"
+                      :rules="form.typeUsers === 'individuals' || form.typeUsers === 'professionals' ? 'required|isValidTaxCode' : ''"
                       :disabled="form.typeUsers ==='company' || form.typeUsers === null"
                       name="taxCode"
                       id="taxCode"
@@ -249,15 +205,7 @@
               </div>
 
 
-<!--              <stripe-checkout-->
-<!--                  ref="checkoutRef"-->
-<!--                  mode="payment"-->
-<!--                  :pk="publishableKey"-->
-<!--                  :line-items="lineItems"-->
-<!--                  :success-url="successURL"-->
-<!--                  :cancel-url="cancelURL"-->
-<!--                  @loading="v => loading = v"-->
-<!--              />-->
+
 
               <!-- BUTTON-->
               <div class="flex flex-wrap -mx-3 mt-6">
@@ -298,43 +246,35 @@ export default {
 
   data() {
     return{
-      publishableKey: "pk_test_51LfUbRFFsT48w1fMvFE8KoP7uE2hxzvHiAnQJHrKhGpQHaAGvyHc2QNJFpyDW9GFHJ93PO6HfKoFuNqetTgDK2rh00vcPGm7P9",
       form:{
         type: null,
         firstName: null,
         lastName: null,
+        email: null,
+        password:null,
         typeUsers: null,
+        vatNumber:null,
+        taxCode:null,
       },
-      disabled: true,
-      loading: false,
-      lineItems: [
-        {
-          price: 'price_1M805IFFsT48w1fMg7Yll1Bo', // The id of the recurring price you created in your Stripe dashboard
-          quantity: 1,
-        },
-      ],
-      successURL: "http://127.0.0.1:5173/success",
-      cancelURL: "http://127.0.0.1:5173/cancel",
     }
   },
 
   methods: {
 
     errorBorder(error, id){
+
       if(error){
         let element = document.getElementById(id);
         element.classList.remove("border-gray-200");
         element.classList.add("border-red-500")
       }
+
     },
 
     goPayments(){
       alert(this.form)
     },
 
-    submit () {
-      this.$refs.checkoutRef.redirectToCheckout()
-    },
   },
 };
 </script>
