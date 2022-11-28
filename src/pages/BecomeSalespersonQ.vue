@@ -13,7 +13,7 @@
       </div>
 
       <!-- Page sections -->
-      <HeroAboutQ />
+      <HeroAboutQ :title="'DIVENTA RAPPRESENTANTE'" />
       <TimelineQ />
       <FeaturesBlocksQ/>
       <FormSalespersonQ/>

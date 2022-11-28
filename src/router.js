@@ -12,6 +12,7 @@ import SignUp from './pages/SignUp.vue'
 import ResetPassword from './pages/ResetPassword.vue'
 import PageNotFound from './pages/PageNotFound.vue'
 import becomeSalesperson from "./pages/BecomeSalespersonQ.vue";
+import Tesseramento from './pages/Tesseramento.vue';
 import subscription from "./pages/SubscriptionQ.vue";
 import Servizio from "./pages/ServizioQ.vue";
 import data from "./data/servizi.json";
@@ -101,6 +102,10 @@ const router = createRouter({
     {
       path: '/reset-password',
       component: ResetPassword
+    },
+    {
+      path: '/tesseramento',
+      component: Tesseramento
     },
     {
       path: '/:NotFound(.*)*',

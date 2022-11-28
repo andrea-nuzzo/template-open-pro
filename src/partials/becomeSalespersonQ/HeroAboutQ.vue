@@ -11,7 +11,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 relative">
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <div class="max-w-3xl mx-auto text-center">
-          <h1 class="h1 mb-4" data-aos="fade-up">DIVENTA RAPPRESENTANTE</h1>
+          <h1 class="h1 mb-4" data-aos="fade-up">{{title}}</h1>
         </div>
       </div>
     </div>
@@ -21,6 +21,7 @@
 
 <script>
 export default {
-  name: 'HeroAboutQ'
+  name: 'HeroAboutQ',
+  props: ['title']
 }
 </script>

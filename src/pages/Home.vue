@@ -2,7 +2,7 @@
   <div class="flex flex-col min-h-screen overflow-hidden">
     <!-- Site header -->
     <Header />
-    <AboutHeroTidy/>
+    <AboutHeroTidy />
 
     <!-- Page content -->
     <main class="grow">
@@ -126,17 +126,18 @@
         </div>
         <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
           <div data-aos="fade-up" data-aos-delay="400">
-            <a
+            <router-link
+              to="/tesserati"
               class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
               href="#0"
-              >TESSERATI ORA</a
+              >TESSERATI ORA</router-link
             >
           </div>
         </div>
       </div>
 
       <!-- Tre vantaggi per te -->
-      <FeaturesBlocksQ />
+      <FeaturesBlocksQ ctaText1="MAGGIORI INFO" ctaText2="MAGGIORI INFO" />
 
       <!-- Riportare persone a comprare nei negozi -->
       <div

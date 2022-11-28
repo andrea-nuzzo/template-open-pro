@@ -153,7 +153,7 @@
               <a
                 class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
                 href="#0"
-                >MAGGIORI INFO</a
+                >{{ctaText1}}</a
               >
             </div>
           </div>
@@ -304,7 +304,7 @@
               <a
                 class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
                 href="#0"
-                >MAGGIORI INFO</a
+                >{{ctaText2}}</a
               >
             </div>
           </div>
@@ -317,5 +317,6 @@
 <script>
 export default {
   name: "FeaturesBlocksQ",
+  props: ['ctaText1', 'ctaText2']
 };
 </script>
