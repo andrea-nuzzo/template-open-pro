@@ -49,7 +49,11 @@
           <h3 class="h3 mb-4" data-aos="fade-up">
             Se rientri tra queste categorie:
           </h3>
-          <p class="text-gray-400 my-5 py-5" data-aos="fade-up" data-aos-delay="200">
+          <p
+            class="text-gray-400 my-5 py-5 text-lg"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             Avvocato | Commercialista | Notaio | Tributarista | Consulente del
             lavoro | Esperto di finanza agevolata | Freelance nel marketing e
             nella comunicazione | Webmaster | Social media manager
@@ -67,10 +71,24 @@
             data-aos="fade-up"
             data-aos-delay="400"
           />
-          <p class="text-gray-400 my-5 py-5" data-aos="fade-up" data-aos-delay="200">
+          <p
+            class="text-gray-400 my-5 py-5 text-lg"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             Nella pagina Diventa Partner Tecnico trovi tutti i vantaggi dedicati
             ai professionisti.
           </p>
+          <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div data-aos="fade-up" data-aos-delay="400">
+              <router-link
+                to="/tesserati"
+                class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                href="#0"
+                >TESSERATI ORA</router-link
+              >
+            </div>
+          </div>
         </div>
       </div>
     </main>
