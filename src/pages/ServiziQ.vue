@@ -202,6 +202,8 @@
               >
             </div>
           </div>
+                <!-- Kit del tesserato -->
+      <FeaturesZigzagQ class="pt-10" />
         </div>
       </div>
     </main>
@@ -215,7 +217,7 @@
 import Header from "./../partials/Header.vue";
 import PageIllustration from "../partials/PageIllustration.vue";
 import HeroAboutQ from "../partials/becomeSalespersonQ/HeroAboutQ.vue";
-
+import FeaturesZigzagQ from "../partials/FeaturesZigzagQ.vue";
 import Footer from "./../partials/Footer.vue";
 
 export default {
@@ -223,6 +225,7 @@ export default {
     Header,
     PageIllustration,
     HeroAboutQ,
+    FeaturesZigzagQ,
     Footer,
   },
 };
