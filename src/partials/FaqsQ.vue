@@ -4,14 +4,14 @@
       <div class="py-12 lg:pt-0">
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12">
-          <h2 class="h2">6 buoni motivi per tesserarti:</h2>
+          <h2 class="h2">tesserarsi è semplice</h2>
         </div>
 
         <!-- Faqs -->
         <ul class="grid gap-8 md:grid-cols-2 xl:gap-x-16 lg:gap-y-12">
           <li class="flex md:justify-start">
             <div
-              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
+              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-10 h-10 text-green-600 bg-green-200 rounded-full"
             >
               1
             </div>
@@ -24,7 +24,7 @@
           </li>
           <li class="flex md:justify-start order-4 md:order-2">
             <div
-              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
+              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-10 h-10 text-green-600 bg-green-200 rounded-full"
             >
               4
             </div>
@@ -32,14 +32,12 @@
               <h4 class="text-xl font-medium mb-2">
                 Pratiche P.A. in tempo reale
               </h4>
-              <p class="text-lg text-gray-400">
-                Accesso ai servizi della P.A. in tempo reale.
-              </p>
+              <p class="text-lg text-gray-400">Accesso ai servizi della P.A. in tempo reale.</p>
             </div>
           </li>
           <li class="flex md:justify-start order-2 md:order-3">
             <div
-              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
+              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-10 h-10 text-green-600 bg-green-200 rounded-full"
             >
               2
             </div>
@@ -53,7 +51,7 @@
           </li>
           <li class="flex md:justify-start order-5 md:order-4">
             <div
-              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
+              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-10 h-10 text-green-600 bg-green-200 rounded-full"
             >
               5
             </div>
@@ -68,7 +66,7 @@
           </li>
           <li class="flex md:justify-start order-3 md:order-5">
             <div
-              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
+              class="inline-flex items-center relative right-2 md:right-3 justify-center py-1 px-3 text-sm font-semibold w-10 h-10 text-green-600 bg-green-200 rounded-full"
             >
               3
             </div>
@@ -81,7 +79,7 @@
           </li>
           <li class="flex md:justify-start order-6">
             <div
-              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-12 h-12 text-green-600 bg-green-200 rounded-full"
+              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-10 h-10 text-green-600 bg-green-200 rounded-full"
             >
               6
             </div>
@@ -100,6 +98,6 @@
 
 <script>
 export default {
-  name: "FaqsQ",
+  name: "Faqs2Q",
 };
 </script>

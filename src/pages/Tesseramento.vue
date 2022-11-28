@@ -41,6 +41,7 @@
       <!-- Kit del tesserato -->
       <FeaturesZigzagQ />
       <FaqsShortQ />
+      
       <HeroFeaturesQ />
       <div class="w-full flex items-center justify-center pt-6 md:pt-8 lg:pt-12 pl-20 pr-20">
         <div
@@ -91,7 +92,7 @@ import PageIllustration from "../partials/PageIllustration.vue";
 import HeroAboutQ from "../partials/becomeSalespersonQ/HeroAboutQ.vue";
 import HeroFeaturesQ from "../partials/HeroFeaturesQ.vue";
 import FeaturesBlocksQ from "../partials/FeaturesBlocksQ.vue";
-import FaqsQ from "./../partials/FaqsQ.vue";
+import FaqsQ from "../partials/FaqsQ.vue";
 import FaqsShortQ from "./../partials/FaqsShortQ.vue";
 import FeaturesZigzagQ from "../partials/FeaturesZigzagQ.vue";
 import Footer from "./../partials/Footer.vue";
