@@ -26,7 +26,7 @@
 
               <!-- Contact form -->
               <VeeForm
-                class="max-w-xl mx-auto"
+                class="max-w-xl mx-auto flex flex-col gap-4"
                 @submit="submit()"
                 v-slot="{ errors }"
               >
@@ -187,13 +187,14 @@
                     id="consent"
                     :class="{ 'border-red-500': errors.consent }"
                     class="form-input text-gray-200 w-2"
+                    label="Consenso"
                   />
                   <div class="flex justify-between w-full">
                     <label
                       class="block text-gray-200 text-sm font-medium mb-1 ml-2 md:ml-3"
                       for="consent"
                       >Accetto e do il consenso<span
-                        :class="{ 'text-red-500': errors.textMessage }"
+                        :class="{ 'text-red-500': errors.consent }"
                       >
                         *</span
                       ></label
@@ -202,8 +203,8 @@
                   </div>
                 </div>
                 <VeeErrorMessage
-                  name="textMessage"
-                  class="text-red-500 text-sm -mt-8"
+                  name="consent"
+                  class="text-red-500 text-sm"
                 />
 
                 <!-- BUTTON-->
