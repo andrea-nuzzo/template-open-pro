@@ -14,6 +14,7 @@ import PageNotFound from './pages/PageNotFound.vue'
 import becomeSalesperson from "./pages/BecomeSalespersonQ.vue";
 import Tesseramento from './pages/Tesseramento.vue';
 import subscription from "./pages/SubscriptionQ.vue";
+import Servizi from "./pages/ServiziQ.vue";
 import Servizio from "./pages/ServizioQ.vue";
 import data from "./data/servizi.json";
 
@@ -70,6 +71,10 @@ const router = createRouter({
     {
       path: '/subscription',
       component: subscription,
+    },
+    {
+      path: '/servizi-per-te',
+      component: Servizi,
     },
     {
       path: '/:slug',
