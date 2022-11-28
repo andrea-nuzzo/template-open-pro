@@ -1,0 +1,1257 @@
+{
+    "servizi": [
+        {
+            "id": 1,
+            "name": "apertura nuove attività",
+            "slug": "apertura-nuove-attivita",
+            "text": "Stai pensando di avviare una nuova attività imprenditoriale? Uno step molto importante da considerare, se vuoi essere certo della riuscita del tuo business, è la valutazione complessiva di fattibilità. Nello specifico, si parla di una serie di previsioni molto attendibili che si pongono l'obiettivo di stimare una serie di variabili: il profitto, la scalabilità, la diffusione, e molto altro.",
+            "accordion" : {
+                "fattibilità tecnica" : [
+                    "Tutte le valutazioni fatte in questa prima fase sono finalizzate esclusivamente a decidere se l'apertura della tua attività può essere portato avanti oppure no.",
+                    "La fattibilità tecnica è incentrata sulle risorse tecniche e operative a disposizione del business che si vuole creare. Serve a determinare se le risorse tecniche sono in grado di soddisfare le esigenze di produzione e se il team tecnico è in grado di convertire le idee in sistemi operativi. La fattibilità tecnica comporta anche la valutazione dell’hardware, del software e di altri requisiti tecnologici."
+                ],
+                "fattibilità economica":[
+                    "La fattibilità economica comporta la determinazione di costi e di benefici, associati all'apertura di una nuova  attività, prima che le risorse finanziarie vengano assegnate.",
+                    "È importante integrare questa analisi con le seguenti valutazioni:",
+                    [
+                        "Progetti precedenti. Si tratta, quando possibile, di confrontare i numeri di un precedente progetto che, per mercato di riferimento e beni/servizi, è affine o simile a quello in esame",
+                        "Mercato di riferimento e competitor. Importante è individuare accuratamente il settore di mercato in cui si andrà a operare e le aziende competitor già presenti",
+                        "Elenco di possibili  finanziatori. È la stesura di una lista di soggetti coinvolti nel finanziamento del progetto (banche, incubatori di startup/impresa etc.)."
+                    ],
+                    "In sostanza, lo scopo dell’analisi è di avere un approccio mirato a capire i vantaggi e gli svantaggi dei vari percorsi possibili di accessibilità al credito e al finanziamento. Solo così si potrà scegliere la soluzione migliore per ogni specifico progetto."
+                ],
+                "fattibilità giuridica":[
+                    "Questa fattibilità prende in considerazione due aspetti principali.",
+                    "Il primo consiste nella valutazione di ogni aspetto del progetto e verifica eventuali conflittualità con le attuali norme vigenti.",
+                    "Il secondo, valuta la migliore struttura giuridica disponibile per concretizzare l'apertura della nuova attività. Per cui, è molto importante stare attenti nella scelta perché una struttura giuridica non adatta al tipo di attività che vorresti aprire, potrebbe compromettere il successo della stessa.",
+                    "In generale, per eseguire questa fattibilità, gli aspetti da considerare sono innumerevoli e variano a seconda dell’impresa di riferimento. Alcuni esempi: diritti dei lavoratori e sicurezza degli stessi, investimenti all’estero, uso del suolo, licenze commerciali, diritti d’autore, trattamento dei dati personali, rispetto della privacy e norme ambientali."
+                   
+                ],
+                "fattibilità operativa":[
+                    "La fattibilità operativa serve a determinare se sia opportuno portare avanti la nuova idea di business, valutando anche se le risorse umane a disposizione siano sufficienti e adeguate. Dunque, questa analisi accerterà il corretto impiego di budget, tempo e risorse."
+                ],
+                "come viene erogato il servizio":[
+                    "Per il servizio di Apertura di una nuova attività abbiamo predisposto dei pacchetti di servizi imprescindibili, a nostro avviso, gli uni dagli altri. Ugualmente, potrai accedere solo ai servizi che riterrai più utili al tuo scopo. In ogno  modo, per iniziare dovrai sempre accedere alla tua area riservata, aprire un ticket gratuito o prenotare una video  consulenza e parlare direttamente con un nostro partner tecnico."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "business plan",
+                    "slug": "business-plan"                           
+                },
+                {
+                    "name": "pacchetti",
+                    "slug": " pacchetti "
+                },
+                {
+                    "name": "pratiche per bandi e fondi PNRR",
+                    "slug": "pratiche-per-bandi-e-fondi-pnrr"        
+                }
+
+            ],
+            "banner":{
+                "title":"tesserati ora, basta 1 minuto.",
+                "text":"Impieghi solo 1 minuto ma i vantaggi durano 365 giorni.",
+                "subtext":"Tutto il resto è compreso.",
+                "button":"tesserati subito"
+            }
+        },
+        {
+            "id": 2,
+            "name": "business plan",
+            "slug": "business-plan",
+            "text": "Il Business Plan è un documento finanziario-strategico che serve all’imprenditore per sviluppare in modo analitico la propria idea imprenditoriale, fornendo una istantanea di breve e medio  termine dell’impresa e delle strategie da adottare. Nello specifico, si tratta di un piano d’azione nel quale vengono delineate le modalità e i passaggi da affrontare per poter raggiungere tutti gli obiettivi prefissati.",
+            "accordion" : {
+                "quando occorre il business plan" : [
+                    "Questi sono alcuni dei principali casi in cui il business plan è più che fondamentale. Serve a te per capire esattamente come ti stai muovendo e come dovrai muoverti in futuro. Sopratutto, però, sarà la prima richiesta documentale che ti verrà fatta da chiunque vorrai coinvolgere nel tuo progetto.",
+                    "Il business plan ti occorre per:",
+                    [
+                        "aprire una nuova attività commerciale, artigianale o professionale",
+                        "poter richiedere un finanziamento bancario",
+                        "accedere a bandi e fondi",
+                        "coinvolgere investitori e business angel",
+                        "e le modalità di acquisizione dei clienti, il budget necessario per fare questo e una stima dei profitti;"
+                    ]
+                ],
+                "prima di definire il business plan":[
+                    "È fondamentale avere ben chiari alcuni punti guida da utilizzare per stilare un business plan utile in tutto e per tutto.",
+                    "Due punti sono importanti:",
+                    [
+                        "sapere chi lo leggerà. Investitori privati, banche, istituzioni. Questo ti consente di includere le giuste informazioni e omettere quelle prive di impatto;",
+                        "definire l'obiettivo del tuo piano di business. Se vuoi ottenere un finanziamento, ad esempio, dovrai puntare molto sull'aspetto operativo. Questo significa che dovrai specificare le strategie e le modalità di acquisizione dei clienti, il budget necessario per fare questo e una stima dei profitti;"
+                    ]
+                ],
+                "come fare il business plan":[
+                    "Le indicazioni che trovi qui di seguito sono importanti ma sappi che sono standard. Questo significa che per ogni attività imprenditoriale ci sono sfumature importanti da evidenziare e che possono fare la differenza.",
+                    "Cosa non deve mancare nel tuo business plan:",
+                    [
+                        "l'executive summury. Qui includi di cosa si occupa la tua azienda e il business model (scelta e gestione dei fornitori, mercato di riferimento, pricing strategy, modalità di erogazione dei servizi o della vendita dei prodotti, e molto altro). Parla degli obiettivi e della visione aziendale, del team, di come pensi differenziarti, delle strategie di marketing e molto altro:",
+                        "le informazioni dettagliate sulla tua azienda. Parla, quindi, di te imprenditore, della struttura aziendale, dei valori aziendali, della storia della nascita dell'azienda e degli obiettivi di business a breve e a lungo termine;",
+                        "un'analisi del tuo mercato di riferimento. Come? Cerca di stimare la grandezza del mercato attraverso dati ufficiali del settore, trova le tendenze e le prospettive future e soprattutto delinea il profilo del tuo cliente ideale. Due strumenti importanti per fare tutto questo sono l'analisi SWOT e l'analisi competitiva;",
+                        "una spiegazione dettagliata dei tuoi prodotti o servizi. Loro sono i protagonisti indiscussi, quelli che decreteranno in buona parte il successo o l'insuccesso della tua azienda;",
+                        "la strategia di marketing definita con precisione, tempistiche comprese. Questa dovrà trattare sicuramente della fascia di prezzo scelta, di come intendi differenziare i tuoi prodotti sul mercato, di quali canali utilizzerai per vendere e di come vorrai comunicare con il tuo target. Anche le modalità di esecuzione sono importanti e vanno dettagliate, oppure precisa se pensi di affidarti a soggetti esterni, come ad esempio Quisviluppo.com;",
+                        "ogni aspetto logistico e gestionale. Tra cui: i fornitori, le tempistiche di produzione, le strutture fisiche utilizzate, le attrezzature, le scorte di magazzino, l'evasione degli ordini e le spedizioni;",
+                        "un piano finanziario plausibile. I documenti minimi da creare sono il conto economico, lo stato patrimoniale e il rendiconto finanziario. Cosa significa “plausibile”? Significa richiedere preventivi e fare stime molto precise."
+                    ]
+                ],
+                "come avere un business plan in poco tempo":[
+                    "Tesserandoti potrai accedere alla tua area riservata. Qui avrai a disposizione ticket illimitati, video consulenze e professionisti specializzati per stilare il business plan più adatto alla tua azienda e agli obiettivi di tuo interesse."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "apertura nuove attività",
+                    "slug": "apertura-nuove-attivita"                                
+                },
+                {
+                    "name": "pratiche per finanziamento bancario",
+                    "slug": "pratiche-per-finanziamento-bancario"
+                },
+                {
+                    "name": "pratiche per bandi e fondi PNRR",
+                    "slug": "pratiche-per-bandi-e-fondi-pnrr"              
+                }
+
+            ],
+            "banner":{
+                "title":"ancora non sei tesserato? bastano pochi clic.",
+                "text":"al prezzo di una consulenza ne puoi avere quante ne vuoi.",
+                "subtext":"si, è proprio quello che ti serve.",
+                "button":"tesserati in 1 minuto"
+            }
+        },
+        {
+            "id": 3,
+            "name": "apertura partiva iva",
+            "slug": "apertura-piva",
+            "text": "Aprire una Partita IVA è il primo step per l’avvio di un’attività di lavoro autonomo. Quando si decide di iniziare una nuova attività è molto importante pianificare le spese ed i costi da sostenere e l’iter burocratico da affrontare.",
+            "accordion" : {
+                "aprire una Partita IVA" : [
+                    "Al contrario di quello che molti pensano, aprire una Partita IVA oggi è molto semplice e veloce, il tutto avviene per via telematica.",
+                    "È importante però avere le idee chiare sul proprio business. Per prima cosa occorre individuare il proprio profilo fiscale e il codice ATECO.",
+                    "L’ATECO è un codice alfanumerico che serve per classificare le attività economiche.",
+                   "Una volta individuati profilo e codice ATECO, occorre compilare il modello per l’apertura della Partita IVA, scegliendo tra:",
+                   [
+                        "modello AA9/12 per le persone fisiche,",
+                        "modello AA7/10 per soggetti diversi da persone fisiche,",
+                        "modello ANR/3 per soggetti non residenti in Italia"                    
+                    ]
+
+
+                ],
+                "la scelata del regime fiscale":[
+                    "Anche il regime fiscale è un passaggio molto importante e grazie alla legge del 2014 è possibile aprire Partita IVA con un regime agevolato, meglio noto come regime forfettario, che si presenta come un’ottima soluzione per  chi decide di iniziare un’attività autonoma.",
+                    "Il regime ordinario, invece, è obbligatorio per le ditte individuali che abbiano ricavi superiori a 400 mila euro, nel caso di prestazione di servizi, e 700 mila euro negli altri casi.",
+                    "Nel regime ordinario, la tassazione viene determinata in maniera progressiva, basandosi sulle aliquote IRPEF che sono stabilite dalla Legge di Bilancio 2022, nei seguenti scaglioni:",
+                    [
+                        "23% per i redditi fino a 15 mila euro;",
+                        "25% per redditi compresi tra i 15.001 euro e i 28 mila;",
+                        "35% per redditi compresi tra i 28.001 e i 50 mila euro;",
+                        "43% per redditi superiori ai 50 mila euro."
+                    ]
+                ],
+                "aprire Partita IVA giovani":[
+                    "Se sei un under 35, l’iter per poter aprire una Partita IVA è lo stesso di quello previsto per i soggetti che abbiano superato questa età. Ma nel caso in cui la tua attività rientra nella libera professione (come medici, avvocati, ingegneri, deejay, artisti), l’apertura è completamente gratuita e può essere completata in appena 24 ore.",
+                    "L'iter si complica leggermente se il tuo lavoro rientra nell’ambito dell’artigianato (per esempio, tatuatore, fabbro, estetista). Occorre ricorrere a una pratica telematica, la Comunicazione Unica, che racchiude i seguenti enti:",
+                    [
+                        "Camere di Commercio Industria Agricoltura e Artigianato (CCIAA)",
+                        "Agenzia delle Entrate",
+                        "INPS",
+                        "INAIL (ove occorre)"
+                    ],
+                    "Con Comunicazione Unica si è raggiunta la semplificazione relativa all’iter burocratico per avviare una nuova impresa, riducendo i tempi di attesa e di errore.",
+                    "Aprire una Partita IVA può spaventare, ma è un passaggio obbligatorio che andrebbe affrontato con la giusta prospettiva: un’opportunità per farsi strada nel mondo de lavoro autonomo, senza vincoli di orario, né necessariamente una postazione fissa in ufficio."
+                ],
+                "come semplificarsi la vita fin da subito":["La scelta del commercialista non deve essere casuale, deve ricadere su un professionista che sappia gestire alla perfezione la precisa tipologia della tua attività. E non solo, deve inoltre essere ultra aggiornato e avere un'apertura mentale consapevole verso le nuove attività: quelle più innovative e digitali. Entra nella tua area riservata e apri un ticket gratuito e inizia a chiedere informazioni. Riceverai risposta entro 24 ore. Oppure, prenota con un clic una video consulenza e velocizza tutta la procedura."]
+            },
+            "correlati": [
+                {
+                    "name": "apertura nuove attività",
+                    "slug": "apertura-nuove-attivita"        
+                },
+                {
+                    "name": "pratiche camerali",
+                    "slug": "pratiche-camerali"
+                },
+                {
+                    "name": "pratiche per bandi e fondi PNRR",
+                    "slug": "pratiche-per-bandi-e-fondi-pnrr"        
+                }
+
+            ],
+            "banner":{
+                "title":"parli con tutti i professionisti che vuoi, ogni volta che vuoi",
+                "text":"tesserati subito, siamo qui al tuo servizio.",
+                "subtext":"per te e per la tua attività.",
+                "button":"entra subito"
+            }
+        },
+        {
+            "id": 4,
+            "name": "statuto societario",
+            "slug": "statuto-societario",
+            "text": "Lo Statuto societario è un atto che regola la vita interna ed il funzionamento di una impresa nel rispetto delle norme inderogabili poste dal Codice Civile. Lo Statuto può essere unito all’atto costitutivo. Nel caso in cui tra le clausole dell’atto costitutivo e quello dello Statuto ci sia un conflitto, prevalgono sempre quelle dello Statuto.Lo Statuto è un atto fondamentale necessario per la costituzione di una persona giuridica e deve essere approvato da tutti i soci all’unanimità. L’atto costitutivo è previsto per tutti i tipi di società, tranne quella semplice, e include tutti gli elementi che caratterizzano la singola società nascente.",
+            "accordion" : {
+                "cosa inserire nello Statuto societario" : [
+                    "Lo Statuto è un documento che contiene le informazioni sulla società e le regole sull’amministrazione, sull’assemblea dei soci, sul trasferimento delle quote e altro. Le informazioni che devono comparire sono:",
+                    [
+                        "la denominazione della società;",
+                        "l’oggetto sociale: ossia l’individuazione del campo d’azione della società con l’indicazione delle attività esercitate;",
+                        "la sede legale;",
+                        "la durata della società;",
+                        "Il capitale sociale: l’ammontare è di importo non inferiore a 10.000 euro."
+                    ]
+                ],
+                "perché conviene aprire una Srl":[
+                    "La società a responsabilità limitata è il tipo di società maggiormente utilizzato tra le società di capitali. Uno dei punti di forza della Srl è quello di limitare la responsabilità dei soci a quanto versato. La Srl può essere costituita con un capitale sociale a partire da 1 euro."
+                ],
+                "quando passare da Partita IVA a Srl":[
+                    "La Srl e la Partita IVA hanno due forme giuridiche diverse. La ditta individuale vede l’imprenditore con una responsabilità illimitata, dove non esistono divisioni tra il patrimonio dell’attività e quello personale.",
+                    "Nella Srl il capitale sociale è indipendente da quello dei soci ed ha una responsabilità limitata ai propri conferimenti.",
+                    "Quando un libero professionista decide di costituire una Srl lo fa per limitare i rischi e ampliare l’attività, potendo contare sull’ausilio dei soci. Inoltre, a livello creditizio, le società vengono percepite con maggiore affidabilità, in quanto ogni singolo socio partecipa con dei conferimenti ed il capitale societario è più alto e solido rispetto ad una ditta individuale."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "consulenza tributaria",
+                    "slug": "consulenza-tributaria"
+        
+                },
+                {
+                    "name": "pacchetti",
+                    "slug": " pacchetti "
+                },
+                {
+                    "name": "pratiche per bandi e fondi PNRR",
+                    "slug": "pratiche-per-bandi-e-fondi-pnrr"
+                }
+
+            ],
+            "banner":{
+                "title":"paga con la quickly card e ricevi il cashback",
+                "text":"tesserati ora e ricevi entro 10 giorni la card.",
+                "subtext":"conveniente e intelligente.",
+                "button":"tesserati ora"
+            }
+        },
+        {
+            "id": 5,
+            "name": "pratiche camerali",
+            "slug": "pratiche-camerali",
+            "text": "Le pratiche camerali sono molte, la procedura di creazione e invio di tutta la modulistica è complessa e onerosa in termini di tempo. Sono sempre più gli adempimenti che una nuova impresa è obbligata a rispettare.",
+            "accordion" : {
+                "iscrizione alla camera di commercio e Registro delle imprese" : [
+                    "Il Registro delle imprese è una sorta di anagrafe delle imprese, di qualsiasi forma giuridica, contenente tutti i dati. Tutte le imprese sono obbligate ad iscriversi al Registro delle imprese, indipendentemente dalla dimensione e sia individuali o collettive."
+                ],
+                "pratiche SUAP":[
+                    "Lo sportello unico attività produttive, SUAP, è il punto d’incontro tra le imprese e le istituzioni pubbliche per sbrigare tutte le pratiche inerenti all’apertura e alla gestione aziendale. Il funzionamento del SUAP è interamente telematico, anche se in ogni Comune è presente un ufficio territoriale di riferimento. Il SUAP serve a presentare istanze, scaricare moduli, consultare norme, effettuare pagamenti e avviare una nuova attività di impresa."
+                ],
+                "Inizio attività R.E.A.":[
+                    "Tutte le imprese e le persone fisiche che intendono iniziare a svolgere l’attività devono presentare telematicamente apposita SCIA (segnalazione certificata di inizio attività). Le comunicazioni al Registro delle Imprese e al R.E.A. vanno effettuate telematicamente, attraverso la Comunicazione Unica."
+                ],
+                "come eseguire velocemente e senza pensieri tutte le pratiche camerali":[
+                    "Accedi alla tua area riservata, apri un ticket gratuito per chiedere tutte le informazioni di cui hai bisogno, oppure prenota con un clic una video consulenza. I nostri partner tecnici svolgeranno per te ogni incombenza. Tu potrai concentrarti su quello che sai fare meglio: il tuo lavoro."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "corporate identity",
+                    "slug": "corporate-identity"        
+        
+                },
+                {
+                    "name": "pratiche inail/inps",
+                    "slug": "pratiche-inail-inps"        
+                },
+                {
+                    "name": "pratiche per bandi e fondi PNRR",
+                    "slug": "pratiche-per-bandi-e-fondi-pnrr"        
+                }
+
+            ],
+            "banner":{
+                "title":"entra nel centro servizi più grande d'italia.",
+                "text":"tutto è a portata di clic, tutto è nel tuo smartphone.",
+                "subtext":"professionalità compressa ma potente.",
+                "button":"entra ora"
+            }
+        },
+        {
+            "id": 6,
+            "name": "pratiche inail/inps",
+            "slug": "pratiche-inail-inps",
+            "text": "L’apertura di una nuova attività comporta, tra gli altri oneri, l’iscrizione obbligatoria da parte dell’imprenditore sia all’INPS che all’Inail. L’INPS è l’ente che gestisce la previdenza e le pensioni, l’Inail si occupa di assicurazione obbligatoria contro gli infortuni sul lavoro e le malattie professionali. L'obbligatorietà di iscrizione all'INPS e all'INAIL spetta sia all'imprenditore che ai dipendenti, sia ai lavoratori autonomi che agli artigiani e ai commercianti.",
+            "accordion" : {
+                "iscrizione INPS per Commercianti" : [
+                    "Sono obbligati ad iscriversi alla gestione previdenziale INPS Commercianti tutti coloro che esercitano un’attività del settore terziario. Nello specifico, sono compresi coloro che esercitano attività commerciali, turistiche, finanziarie e relative attività ausiliarie. Per potersi iscrivere alla gestione INPS Commercianti occorre utilizzare il canale telematico Comunicazione Unica. Ogni anno si devono versare i contributi, anche se il fatturato è pari a zero."
+                ],
+                "iscrizione INPS per artigiani" : [
+                    "Gli artigiani devo iscriversi all’INPS e lo fanno nella Gestione Artigiani e Commercianti, attraverso la comunicazione Unica. I requisiti per potersi iscrivere sono due: aver compiuto 18 anni e svolgere attività manuale in prima persona. L’iscrizione deve avvenire entro 30 giorni dalla data di inizio attività."
+                ],
+                "iscrizione INPS della Gestione separata" : [
+                    "I lavoratori autonomi occasionali con reddito superiore a 5mila euro all’anno e quelli che svolgono un lavoro occasionale accessorio devono iscriversi alla Gestione separata."
+                ],
+                "iscrizione Inail" : [
+                    "L’iscrizione all’Inail è obbligatoria per tutti i lavoratori autonomi e dipendenti. Il datore di lavoro ha l’onere di presentare, non appena inizia l’attività lavorativa, la denuncia all’Inail attraverso la Comunicazione Unica."
+                ],
+                "come espletare ogni obbligo senza stress e in modo corretto" : [
+                    "Se stai aprendo una nuova attività e ancora non fai parte di Quisviluppo.com, puoi tesserarti in un minuto e iniziare subito a chiedere informazioni direttamente ai nostri commercialisti, o a qualunque altro partner tecnico. Potrai fare tutto online, potrai richiedere il disbrigo di qualunque pratica legata la mondo del lavoro. Sono stati creati anche dei pacchetti per coloro che stanno aprendo una nuova attività o hanno intenzione di farlo. Attraverso la tua area riservata potrai aprire un ticket gratuito (ogni volta che ne avrai bisogno, senza limiti) oppure prenotare una video consulenza con un clic."
+                ]
+                           },
+            "correlati": [
+                {
+                    "name": "emissione SPID",
+                    "slug": "emissione-spid"        
+                },
+                {
+                    "name": "firma digitale",
+                    "slug": "firma-digitale"
+                },
+                {
+                    "name": "apertura e cambio di conto corrente",
+                    "slug": "apertura-e-cambio-di-conto-corrente"
+                }
+
+            ],
+            "banner":{
+                "title":"parla subito con l'esperto giusto. ",
+                "text":"devi solo tesserarti con pochi clic e parli gratuitamente.",
+                "subtext":"il prezzo è davvero accessibile.",
+                "button":"tesserati"
+            }
+        },
+        {
+            "id": 7,
+            "name": "emissione SPID",
+            "slug": "emissione-spid",
+            "text": "",
+            "accordion" : {
+                "" : [
+                    ""
+                ]
+                           },
+            "correlati": [
+                {
+                    "name": "firma digitale",
+                    "slug": "firma-digitale"                 
+                },
+                {
+                    "name": "contrattualistica",
+                    "slug": "contrattualistica"
+                },
+                {
+                    "name": "pacchetti",
+                    "slug": " pacchetti "                     
+                }
+
+            ],
+            "banner":{
+                "title":"scopri se ci sono bandi e fondi anche per te.",
+                "text":"tesserati in 1 minuto e fai la richiesta con un clic.",
+                "subtext":"questo è il miglior momento per ottenere fondi.",
+                "button":"accedi subito"
+            }
+        },
+        {
+            "id": 8,
+            "name": "firma digitale",
+            "slug": "firma-digitale",
+            "text": "",
+            "accordion" : {
+                "" : [
+                    ""
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "accordo di riservatezza (NDA)",
+                    "slug": "accordo-di-riservatezza-nda"              
+                },
+                {
+                    "name": "pratiche per finanziamento bancario",
+                    "slug": "pratiche-per-finanziamento-bancario"
+                },
+                {
+                    "name": "pratiche per bandi e fondi PNRR",
+                    "slug": "pratiche-per-bandi-e-fondi-pnrr"
+                }
+
+            ],
+            "banner":{
+                "title":"prezzi calmierati per i tesserati.",
+                "text":"ottieni uno sconto reale del 30% su tutti i servizi.",
+                "subtext":"perchè spendere di più?",
+                "button":"voglio tesserarmi"
+            }
+        },
+        {
+            "id": 9,
+            "name": "consulenza tributaria",
+            "slug": "consulenza-tributaria",
+            "text": "La consulenza tributaria riguarda la tassazione diretta e indiretta, oltre alle relative pratiche. E' un aspetto molto importante sia per chi sta aprendo un'attività sia per le aziende già avviate. Spesso il giusto professionista fa la differenza tra risparmiare il giusto e seguire obbligatoriamente i dettami di legge.",
+            "accordion" : {
+                "Azioni di prevenzione per evitare controversie" : [
+                    "La complessità delle normative espone chi fa impresa a rischi tributari. Tuttavia, è possibile seguire dei modelli di prevenzione in modo da evitare l’insorgere di controversie. Attraverso un monitoraggio dei rischi è possibile battere il fisco totalmente o parzialmente nei ricorsi presentati."
+                ],
+                "Gestione e risoluzione di controversi con Agenzia delle Entrate e ex Equitalia" : [
+                    "L’imprenditore contribuente che riceve un atto emesso dall’Agenzia delle Entrate e ex Equitalia può impugnarlo presentando un ricorso alla competente Commissione tributaria del territorio, indicata all’interno dell’atto ricevuto.",
+                    "Inoltre, può anche richiedere un riesame, in tutto o in parte, degli elementi contenuti all’interno dell’atto. Tutto questo grazie all’ausilio di un gruppo di professionisti specializzati."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "gestione del debito fiscale",
+                    "slug": "gestione-del-debito-fiscale"         
+                },
+                {
+                    "name": "pratiche di sovraindebitamento",
+                    "slug": "pratiche-di-sovraindebitamento"
+                },
+                {
+                    "name": "credito d'imposta e bonus fiscali",
+                    "slug": "credito-imposta-e-bonus-fiscali"
+                }
+
+            ],
+            "banner":{
+                "title":"stai comunicando nel modo giusto il tuo business?",
+                "text":"allora parla con i nostri esperti di marketing.",
+                "subtext":"il successo dipende da te.",
+                "button":"entra adesso"
+            }
+        },
+        {
+            "id": 10,
+            "name": "valutazione del merito creditizio",
+            "slug": "valutazione-del-merito-creditizio",
+            "text": "La valutazione del merito creditizio è un indicatore fondamentale per conoscere il rating di affidabilità economico-finanziaria di ogni persona. Prima di richiedere un finanziamento è consigliabile conoscere il proprio rating bancario, cioè la solvibilità. Con solvibilità si intende la capacità che ha un soggetto di far fronte agli impegni finanziari assunti, rimborsando puntualmente le rate.",
+            "accordion" : {
+                "Come si legge la visura della valutazione del merito creditizio" : [
+                    "La redazione della visura del merito creditizio attinge a fonti istituzionali quali: Banca d’Italia, CRIF, Experian, Cerved e Camera di Commercio.",
+                    "Il documento ottenuto sarà interpretabile in modo chiaro e preciso, in quanto regolato come un semplice semaforo. Vedrai, infatti, la tua situazione con degli indicatori colorati così suddivisi:",
+                    ["Rosso: indica l’impossibilità di accedere al credito. Questa è, comunque, una situazione momentanea della durata di al massimo tre mesi, che potrà essere variata attraverso la cancellazione della sofferenza bancaria."],
+                    "È una situazione in cui risultano esservi sofferenze bancarie e/o finanziarie da risolvere. In questo caso è impossibile accedere al credito in quanto risultano essere presenti altri insoluti o irregolarità nei pagamenti. Anche se si dovesse risolvere la situazione, gli istituti creditizi  vedrebbero comunque lo storico dei 3 anni precedenti. Ma non ti preoccupare. Anche questo è risolvibile, i partner tecnici di Quisviluppo.com sono specializzati in situazioni come queste. Tesserati e inizia a parlare con loro, gratuitamente.",
+                    ["Giallo: media accessibilità di accesso al credito. Anche questa è una condizione non definitiva che può essere risolta attraverso il servizio di cancellazione della sofferenza bancaria. Con questo rating è comunque possibile cercare realtà bancarie disponibili a dare qualche possibilità di finanziamento"],
+                    "In questa situazione non esistono esposizioni a sofferenza creditizia ma finanziamenti erogati e in regola nei pagamenti. La media accessibilità è determinata solo dalla troppa esposizione creditizia rispetto al reddito dell’utente.",
+                    ["Verde: massima credibilità e possibilità certa di accedere al credito. Con un rating di questo livello aumentano le alternative di scelta dell’istituto creditizio. In questo caso l’utente ha uno storico finanziario corretto di richieste e restituzioni."]
+                ],
+                "l'importanza di conoscere prima la propria situazione quando si vuole accedere al credito" : [
+                    "Conoscere prima la propria situazione è un vantaggio che Quisviluppo.com può darti, in modo tale da non perdere preziose opportunità o, nei casi peggiori, compromettere la tua posizione ulteriormente. Infatti, si rischia di ottenere solo altre segnalazioni presso le Centrali Rischi. Muovendosi correttamente, prima di provare accedere al sistema creditizio, si hanno alte probabilità di successo, annullando rischi e stress."
+                ],
+                "Come richiedere la visura della valutazione del merito creditizio" : [
+                    "Puoi fare richiesta con un semplice clic nella tua area riservata, la otterrai entro le 48 ore successive. Una volta conosciuto il tuo rating, i nostri professionisti ti proporranno le soluzioni più adeguate per metterti in condizione di accedere al credito e ottenere fondi per la tua attività. Attraverso i ticket gratuiti potrai parlare con il partner tecnico specializzato in finanza agevolata o richiedere una video consulenza, prenotandola con un clic."
+                ]
+                           },
+            "correlati": [
+                {
+                    "name": "pratiche per finanziamento bancario",
+                    "slug": "pratiche-per-finanziamento-bancario"            
+                },
+                {
+                    "name": "cassa depositi e prestiti",
+                    "slug": "cassa-depositi-e-prestiti"
+                },
+                {
+                    "name": "cancellazione della sofferenza bancaria",
+                    "slug": "cancellazione-della-sofferenza-bancaria"
+                }
+
+            ],
+            "banner":{
+                "title":"fai parte della rivoluzione, facciamo rete.",
+                "text":"tesserati per fare concorrenza ai big dell'e-commerce.",
+                "subtext":"tesserati e fai tesserare.",
+                "button":"voglio tesserarmi"
+            }
+        },
+        {
+            "id": 11 ,
+            "name": "cancellazione della sofferenza bancaria",
+            "slug": "cancellazione-della-sofferenza-bancaria",
+            "text": "La sofferenza bancaria è quella condizione economica in cui un’impresa, o un soggetto, non è in grado di rimborsare un debito né ora, né in futuro.",
+            "accordion" : {
+                "Quanto dura la sofferenza bancaria" : [
+                    "In genere l’istituto di credito concede dai 10 ai 14 mesi di tempo al cliente in difficoltà economica per pagare. Questo periodo di tempo viene definito incaglio bancario. Al termine di questo periodo, l’incaglio viene segnalato alla Centrale Rischi. Da qui in poi avviene la chiusura di tutti i fidi e non sarà più possibile chiedere un ulteriore credito per ripagare il debito insoluto."
+                ],
+                "l'importanza di fare richieste di finanziamento dopo aver eliminato la sofferenza bancaria" : [
+                   "Una volta  eliminato il tuo nominativo dalla Centrale Rischi avrai finalmente regolarizzato la tua posizione debitoria. Azzerato tutto potrai nuovamente richiedere un nuovo prestito o accedere a degli incentivi  per realizzare la tua idea imprenditoriale.",
+                   "Se si tenta di accedere a qualunque forma di finanziamento bancaria, in presenza di sofferenza, si peggiorano solamente le cose.",
+                   "Invece, per alcune tipologie di bandi e fondi questa condizione non ha importanza. Quindi, potrai ugualmente fare richiesta. I nostri esperti di finanza agevolata sapranno indicarti la strada migliore per la tua specifica situazione."
+                ],
+                "Come cancellare la segnalazione alla Centrale Rischi" : [
+                    "Accedi alla tua area riservata dove puoi aprire un ticket gratuito e iniziare a chiedere informazioni ai nostri partner tecnici. Riceverai risposta entro 24 ore. Oppure puoi richiedere una video consulenza, prenotandola con un clic, e allegare anche eventuali documenti da far valutare per ottenere risposte precise. In seguito, potrai affidare la pratica di cancellazione della sofferenza bancaria e rilassarti."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "valutazione del merito creditizio",
+                    "slug": "valutazione-del-merito-creditizio"               
+                },
+                {
+                    "name": "pratiche di sovraindebitamento",
+                    "slug": "pratiche-di-sovraindebitamento"
+                },
+                {
+                    "name": "pratiche per finanziamento bancario",
+                    "slug": "pratiche-per-finanziamento-bancario"
+                }
+
+            ],
+            "banner":{
+                "title":"avvocato o commercialista o notaio?",
+                "text":"parla con chi vuoi ogni volta che vuoi.",
+                "subtext":"gratuitamente e senza limiti.",
+                "button":"tesserati adesso"
+            }
+        },
+        {
+            "id": 12,
+            "name": "analisi dei costi bancari",
+            "slug": "analisi-dei-costi-bancari",
+            "text": "L’analisi dei costi bancari è un'attività che verifica le reali condizioni applicate dagli istituti creditizi sui rapporti di conto corrente. Anche poter analizzare facilmente il proprio  estratto conto deve essere alla base di un buon servizio bancario. Ecco perché diventa necessario un controllo approfondito degli estratti conto in modo da confrontare tassi e commissioni applicati.",
+            "accordion" : {
+                "I conti correnti più adatti ai liberi professionisti" : [
+                    "Fra le varie caratteristiche che un conto corrente per liberi professionisti dovrebbe avere c’è quella legata all’invio del modello F24 per il pagamento relativo ai versamenti fiscali dovuti. Un’altra caratteristica è quella di poter gestire i pagamenti tramite POS, Point of Sale, ormai obbligatori per legge."
+                ],
+                "i conti correnti per le imprese" : [
+                    "Le caratteristiche che un’impresa o una Startup cercano in una banca sono diverse. Certamente, tra le più richieste vi è la possibilità di effettuare versamenti in contanti e di assegni.",
+                    "Inoltre, è importante poter usufruire, per un'organizzazione, di carte aziendali e carte prepagate con svariate funzioni smart e di rendicontazione."
+                ],
+                "Come scegliere il POS" : [
+                    "Nel 2020, con l’entrata in vigore di nuove norme, c’è stato un incremento delle richieste di pagamento con carta.  L’obiettivo è quello di incentivare i pagamenti elettronici facendo abbandonare il pagamento in contante per contrastare l’evasione fiscale.",
+                    "Sia le imprese che i liberi professionisti sono interessati da questo obbligo. Ma come funziona?  Ci sono tre modi diversi per accettare il pagamento:",
+                    [
+                        "inserire la carta nella fessura del device (metodo Chip&pin)",
+                        "strisciare la carta se il terminale è dotato di una banda magnetica laterale",
+                        "avvicinare la carta al lettore se vi è la modalità contactless."
+                    ]
+                ],
+                "come accedere all'analisi dei costi bancari" : [
+                    "Quisviluppo.com ti permette di accedere all’analisi dei costi bancari. Basterà entrare nella tua area personale e aprire un ticket gratuitamente dove spieghi le tue necessità. Un nostro partner tecnico ti risponderà entro 24 ore.  In seguito, se vorrai proseguire con l'analisi potrai richiedere una video consulenza, prenotando direttamente con clic."
+                ]
+                },
+            "correlati": [
+                {
+                    "name": "apertura e cambio di conto corrente",
+                    "slug": "apertura-e-cambio-di-conto-corrente"
+                },
+                {
+                    "name": "credito d'imposta e bonus fiscali",
+                    "slug": "credito-imposta-e-bonus-fiscali"
+                },
+                {
+                    "name": "accordo di riservatezza (NDA)",
+                    "slug": "accordo-di-riservatezza-nda"        
+                }
+
+            ],
+            "banner":{
+                "title":"esperto di finanza agevolata o tributarista o marketer?",
+                "text":"parla con chi vuoi ogni volta che vuoi.",
+                "subtext":"gratuitamente e senza limiti",
+                "button":"tesserati subito"
+            }
+        },
+        {
+            "id": 13,
+            "name": "apertura e cambio di conto corrente",
+            "slug": "apertura-e-cambio-di-conto-corrente",
+            "text": "Decidere di cambiare banca o aprire un conto corrente richiede un po’ di attenzione. Con la legge Bersani del 2006 la chiusura di un conto corrente in Italia è gratuita. In genere, quando si decide di chiudere il proprio conto è perché si vuole aprire un conto presso un’altra banca. L’operazione di cambio banca richiederà il trasferimento di tutto il denaro e le eventuali domiciliazioni di utenze. Di solito questa operazione avviene in 12 giorni e in questo arco di tempo dovranno passare tutte le operazioni attive dal vecchio al nuovo conto.",
+            "accordion" : {
+                "i vantaggi di essere partner di Unicredit Banca" : [
+                    "Quisviluppo.com è partner di Unicredit Banca. Questo significa che tutti i nostri tesserati  avranno accesso a un canale privilegiato a ogni servizio bancario e finanziario, grazie allo snellimento delle procedure operative poste in essere dalla partnership."
+                ],
+                "l'apertura di un nuovo conto corrente" : [
+                    "Per aprire un nuovo conto corrente business, i documenti da presentare sono:",
+                    [
+                        "documento di identità e codice fiscale del titolare;",
+                        "copia della partita IVA;",
+                        "certificato di iscrizione al Registro delle imprese;",
+                        "copia atto costitutivo e dello statuto (in caso di società)."
+                    ]
+                ],
+                "Come viene erogato il servizio" : [
+                    "Una volta effettuato l'accesso nella tua area riservata, potrai interagire con un nostro partner tecnico specializzato attraverso i ticket gratuiti. Oppure potrai prenotare, con un clic, una video consulenza e velocizzare l'acquisizione di tutte le informazioni che ti occorrono.",
+                    "La pratica verrà eseguita completamente dal nostro partner tecnico e tu dovrai soltanto eseguire l’ultimo step: recarti in banca per finalizzare il contratto di conto corrente con la tua firma."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "analisi dei costi bancari",
+                    "slug": "analisi-dei-costi-bancari"        
+                },
+                {
+                    "name": "compliance GDPR",
+                    "slug": "compliance-gdpr"        
+                },
+                {
+                    "name": "registrazione marchi e brevetti",
+                    "slug": "registrazione-marchi-e-brevetti"        
+                }
+
+            ],
+            "banner":{
+                "title":"esperto di comunicazione o grafico o smm?",
+                "text":"parla con chi vuoi ogni volta che vuoi.",
+                "subtext":"gratuitamente e senza limiti.",
+                "button":"entra adesso"
+            }
+        },
+        {
+            "id": 14,
+            "name": "pratiche per finanziamento bancario",
+            "slug": "pratiche-per-finanziamento-bancario",
+            "text": "Il finanziamento bancario è un prestito di denaro concesso da un istituto di credito. I requisiti per poter ottenere un finanziamento sono la maggiore età e poter dimostrare di avere un reddito sufficiente per rimborsare le rate del prestito. In alcuni casi, anche in presenza di queste condizioni la banca potrebbe comunque non concedere il prestito. Il più delle volte succede che la somma richiesta sia eccessiva rispetto al reddito oppure potrebbe sussistere una condizione di sofferenza bancaria del soggetto richiedente.",
+            "accordion" : {
+                "cosa fare prima di richiedere un finanziamento bancario" : [
+                    "Prima di richiedere un finanziamento bancario è opportuno fare una visura per la valutazione del proprio merito creditizio. Coloro che hanno un merito creditizio basso o addirittura negativo vedono chiudersi le possibilità di poter ottenere un prestito.",
+                    "Il merito creditizio possiamo definirlo come un indicatore di solvibilità di ogni soggetto. Infatti, ognuno di noi ha un merito creditizio, anche i privati. Per solvibilità si intende la capacità di restituire il debito alla scadenza (o le rate ogni singolo mese)."
+                ],
+                "quali rischi si corrono se non si fa prima la visura del merito creditizio" : [
+                    "Ogni istituto bancario, prima di deliberare il prestito effettua la valutazione del merito creditizio del richiedente. Se dovesse risultare un buon pagatore, il prestito verrà certamente concesso, anche velocemente. In caso contrario, invece, se dovesse risultare iscritto nella lista dei cattivi pagatori, sarà molto difficile che la richiesta di prestito venga accettata. Inoltre, comparirebbe un'ulteriore segnalazione alla Centrale Rischi della Banca d'Italia.",
+                    "Dunque, se si ha il dubbio di far parte della seconda categoria risulta fondamentale richiedere una visura. Inoltre, Quisviluppo.com potrà risolvere la tua posizione di sofferenza bancaria indicandoti tempistiche precise."
+                ],
+                "come si richiede un finanziamento bancario con Quisviluppo.com" : [
+                    "Dopo aver conosciuto l'esito della valutazione del merito creditizio, i nostri partner tecnici contattano la filiale più vicina geograficamente e aprono la procedura presso l'istituto bancario. Il tesserato dovrà solo recarsi in banca per terminare la procedura con tutte le firme occorrenti, evitando situazioni anche sgradevoli e stressanti."
+                ],
+                "come viene erogato il servizio" : [
+                    "Accedendo alla tua area riservata, potrai richiedere con un clic la valutazione del merito creditizio. La riceverai entro 48 ore. Inoltre, per poter avviare una pratica di finanziamento bancario in modo corretto, puoi iniziare chiedendo informazioni ai nostri partner tecnici aprendo uno o più ticket (sempre gratuiti) oppure prenotando con un clic una video consulenza."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "valutazione del merito creditizio",
+                    "slug": "valutazione-del-merito-creditizio"
+                },
+                {
+                    "name": "cancellazione della sofferenza bancaria",
+                    "slug": "cancellazione-della-sofferenza-bancaria"        
+                },
+                {
+                    "name": "business plan",
+                    "slug": "business-plan"
+                }
+
+            ],
+            "banner":{
+                "title":"cancella la tua sofferenza bancaria nel modo giusto.",
+                "text":"noi sappiamo esattamente come fare.",
+                "subtext":"perchè aspettare?",
+                "button":"tesserati ora"
+            }
+        },
+        {
+            "id": 15 ,
+            "name": "pratiche per bandi e fondi PNRR",
+            "slug": "pratiche-per-bandi-e-fondi-pnrr",
+            "text": "Un modo alternativo alla richiesta di un prestito bancario, per ottenere denaro per la tua impresa, è quello di accedere a bandi e fondi. In alcuni casi si tratta di un prestito a fondo perduto che non prevede la restituzione a chi l'ha concesso. Altre volte sono finanziamenti a tassi molto agevolati. Bandi e fondi vengono erogati  a sostegno di nuove o consolidate attività imprenditoriali, professionali o artigianali. Per incentivare l’imprenditorialità e stimolare l’economia esistono diversi finanziamenti. I più noti sono quelli concessi dall’Unione europea, ma ci sono anche quelli erogati dallo Stato e dalle Regioni, rientranti anche nel PNRR (Piano Nazionale di Ripresa e Resilienza).",
+            "accordion" : {
+                "la differenza con il finanziamento bancario" : [
+                    "Bandi e fondi possono essere ottenuti nonostante la presenza di una sofferenza bancaria. Al contrario, i finanziamenti bancari sono vincolati alla valutazione del proprio merito creditizio."
+                ],
+                "come viene erogato il servizio" : [
+                    "Per poter parlare con i nostri esperti di finanza agevolata basta aprire un ticket gratuito entrando nella propria area riservata. Riceverai risposta entro 24 ore. Oppure, o in seguito, puoi richiedere una video consulenza prenotandola con un clic. Il partner tecnico a cui ti affiderai seguirà la procedura per tutto il percorso: dalla ricerca del bando più adatto al tuo business, alla preparazione dei documenti, fino all’accreditamento del denaro sul tuo conto corrente."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "crowdfunding",
+                    "slug": "crowdfunding"            
+                },
+                {
+                    "name": "valutazione del merito creditizio",
+                    "slug": "valutazione-del-merito-creditizio"        
+                },
+                {
+                    "name": "cassa depositi e prestiti",
+                    "slug": "cassa-depositi-e-prestiti"
+                }
+
+            ],
+            "banner":{
+                "title":"trova subito soluzioni concrete per avere liquidità.",
+                "text":"reale accesso al credito.",
+                "subtext":"bandi, fondi, finanziamenti: oggi sono realtà.",
+                "button":"voglio tesserarmi"
+            }
+        },
+        {
+            "id": 16,
+            "name": "crowdfunding",
+            "slug": "crowdfunding",
+            "text": "Il Crowdfunding è uno strumento con cui un singolo, o un gruppo, raccoglie una somma di denaro con l’obiettivo di finanziare un progetto imprenditoriale. Per avviare la raccolta si deve scegliere una piattaforma di Crowdfunding e presentare il progetto che si vuole sottoporre. Si definisce la somma minima da raggiungere per poter finanziare il progetto e in caso di esito positivo vengono rilasciati i soldi all'autore del progetto. Invece, nel caso in cui non si raggiunga la soglia minima il denaro raccolto viene restituito a tutti coloro che abbiano effettuato la donazione.",
+            "accordion" : {
+                "come funziona" : [
+                    "Nel Crowdfunding abbiamo due interlocutori: il richiedente, che sottopone un progetto che necessita di essere finanziato e il finanziatore, che decide di finanziare un progetto che ritiene interessante.",
+                    "Tra questi due interlocutori c’è un intermediario: la piattaforma di Crowdfunding prescelta che fa da garante per entrambe le parti.",
+                    "In Italia questa metodologia si sta diffondendo soprattutto per finanziare nuovi progetti di imprenditoria, sempre più spesso presentati da Startup."
+                ],
+                "forme di Crowdfunding" : [
+                    "Esistono varie forme di Crowdfunding ognuna adatta ad uno scopo ben preciso. Sono quattro: Reward, Equity, Donation, Lending.",
+                    "Il Reward prevede che ogni finanziatore riceva, nel caso la campagna termini in maniera positiva, una ricompensa non monetaria. In alcuni casi si tratta del progetto stesso lanciato sulla piattaforma. Ad esempio, il compenso potrebbe essere un libro se il progetto prevedeva il sostegno ad uno scrittore emergente, oppure un CD musicale, nel caso di un aiuto a un cantante.",
+                    "L’Equity prevede che ogni finanziatore riceva una percentuale delle quote del progetto che finanzia, in base alla quantità di soldi investiti. Riceverà, dunque, la sua percentuale in caso di riuscita del progetto. Se sei una Startup e intendi finanziare un nuovo progetto, l’Equity è la forma adatta a te.",
+                    "Donation consiste in una vera e propria donazione per la quale non è prevista alcuna ricompensa. Questa forma di Crowdfundig si presta per progetti non profit e con un forte impatto sociale.",
+                    "Nel Lending ogni utente presta dei soldi per lo sviluppo di un progetto con la speranza che possano essere restituiti con gli interessi. Questa forma di Crowdfunding viene usata dalle PMI per acquistare nuovi macchinari o prodotti senza dover chiedere un vero prestito a un istituto di credito."
+                ],
+                "come viene erogato il servizio" : [
+                    "Basta accedere alla propria area riservata, aprire un ticket gratuito oppure richiedere una video consulenza prenotando con un clic. Fra i nostri partner tecnici annoveriamo esperti di finanza agevolata che abitualmente avviano campagne di crowdfundig con esito estremamente positivo."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "pratiche per bandi e fondi PNRR",
+                    "slug": "pratiche-per-bandi-e-fondi-pnrr"           
+                },
+                {
+                    "name": "cassa depositi e prestiti",
+                    "slug": "cassa-depositi-e-prestiti"        
+                },
+                {
+                    "name": "business plan",
+                    "slug": "business-plan"        
+                }
+
+            ],
+            "banner":{
+                "title":"fai il grande passo, apri la tua attività.",
+                "text":"esiste solo un modo giusto di farlo: con noi. ",
+                "subtext":"solo qui hai tutti gli esperti che ti occorrono.",
+                "button":"si, mi tessero"
+            }
+        },
+        {
+            "id": 17,
+            "name": "credito d'imposta e bonus fiscali",
+            "slug": "credito-imposta-e-bonus-fiscali",
+            "text": "Il credito di imposta è una tipologia di bonus fiscale, per il quale si intendono tutti gli importi che si possono sottrarre dal totale delle tasse sui redditi dovute allo Stato. Il credito d’imposta è un incentivo fiscale per le imprese che investono in beni strumentali nuovi, materiali e immateriali. Questi beni sono funzionali alla trasformazione tecnologica e digitale dei processi produttivi, destinati a strutture collocate sul territorio nazionale. Strumento molto importante per gli imprenditori e i professionisti di qualunque dimensione e settore merceologico, ma troppo spesso sottovalutato.",
+            "accordion" : {
+                "Cosa rientra nel credito d'imposta" : [
+                    "Nel 2022, a tutte le imprese e i professionisti (anche in regime forfettario) che investono in beni strumentali nuovi, destinati a strutture produttive sul territorio italiano, viene riconosciuto dallo Stato un credito d’imposta."
+                ],
+                "Come usufruire del credito di imposta" : [
+                    "Per poter usufruire del credito d’imposta i soggetti interessati dovranno presentare una comunicazione all’Agenzia delle Entrate del proprio territorio. In questo documento dovranno dichiarare i dati degli investimenti per richiedere l’autorizzazione alla fruizione del bonus. Nel 2022, per poterne usufruire occorre effettuare l'investimento entro il 31 dicembre 2022, oppure entro il 30 giugno 2023, a condizione che alla data del 31 dicembre 2022 il relativo ordine risulti accettato e siano stati versati acconti per almeno il 20% del costo di acquisizione."
+                ],
+                "Come viene erogato il servizio" : [
+                    "Accedi alla tua area riservata e apri un ticket gratuito. Un nostro partner tecnico risponderà alle tue domande entro 24 ore. In seguito, potrà seguirti fino alla compilazione e comunicazione all'Agenzia delle Entrate."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "cassa depositi e prestiti",
+                    "slug": "cassa-depositi-e-prestiti" 
+                },
+                {
+                    "name": "pratiche per finanziamento bancario",
+                    "slug": "pratiche-per-finanziamento-bancario"        
+                },
+                {
+                    "name": "crowdfunding",
+                    "slug": "crowdfunding"        
+                }
+
+            ],
+            "banner":{
+                "title":"la forza di una rete è la dimensione.",
+                "text":"facciamo rete e diamo nuovamente forza alle economie locali.",
+                "subtext":"tesserati e fai tesserare.",
+                "button":"voglio tesserarmi"
+            }
+        },
+        {
+            "id": 19,
+            "name": "contrattualistica",
+            "slug": "contrattualistica",
+            "text": "Fondamentale è farsi assistere da un avvocato contrattualista per tutelare la propria attività. Di qualunque dimensione sia e in qualunque mercato operi. Purtroppo non basta leggere attentamente il contenuto di un contratto. I possibili effetti che si possono produrre, una volta concluso l’accordo,  non sempre risultano a tuo favore. Quindi, è sicuramente opportuno tutelarsi prima di sottoscrivere contratti alla cieca, cercando di minimizzare ogni possibile rischio per il proprio business.",
+            "accordion" : {
+                "Principali contratti commerciali" : [
+                    "Ricevere un’assistenza legale di fiducia, per quanto riguarda le principali tipologie di contratti commerciali, è fondamentale per chi intende fare business. L' avvocato specializzato è in grado di redigere i contratti con le clausole più adatte a tutelare gli interessi del proprio cliente, sempre nel pieno rispetto delle norme vigenti.",
+                    "I principali contratti commerciali sono: appalto, subfornitura, compravendita di beni mobili e condizioni generali di vendita, contratti di collaborazione tra imprese, contratti di agenzia, di distribuzione e molti altri.",
+                    "Ogni situazione è diversa dalle altre, per questo è fondamentale affidarsi ad un esperto di fiducia che sappia consigliarti, evitando di farti spendere molto denaro per riparare ormai una situazione già danneggiata."
+                ],
+                "come eroghiamo il servizio" : [
+                    "Quisviluppo.com ti aiuta a trovare l'avvocato adatto alle tue esigenze. Entra nell'area riservata e inizia a interagire con uno dei nostri partner tecnici, attraverso l'apertura di un ticket (sempre gratuito). In automatico, il sistema sceglierà il professionista adatto al tuo caso. Entro 24 ore riceverai una risposta. Se non sarai soddisfatto o vorrai avere altre informazioni, potrai scrivere nuovamente all'avvocato, oppure, prenotare una video consulenza, con un clic, inviando anche documenti che possano spiegare meglio la situazione."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "accordo di riservatezza (NDA)",
+                    "slug": "accordo-di-riservatezza-nda"               
+                },
+                {
+                    "name": "compliance GDPR",
+                    "slug": "compliance-gdpr"        
+                },
+                {
+                    "name": "registrazione marchi e brevetti",
+                    "slug": "registrazione-marchi-e-brevetti"        
+                }
+
+            ],
+            "banner":{
+                "title":"il potere è nelle tue mani, solo tu puoi fare la differenza.",
+                "text":"tesserati in 1 minuto e inizia la rivoluzione.",
+                "subtext":"tesserati e fai tesserare ",
+                "button":"tesserati ora"
+            }
+        },
+        {
+            "id": 20,
+            "name": "compliance GDPR",
+            "slug": "compliance-gdpr",
+            "text": "La Compliance GDPR è un requisito di conformità al Regolamento europeo in materia di protezione dati. Il Regolamento prevede maggiori tutele per tutti i cittadini e i consumatori. Questo si traduce in maggiori oneri per le imprese in merito al trattamento dei consensi e dei dati personali. Il titolare del trattamento deve necessariamente adeguare la propria azienda ai dettami del  GDPR altrimenti potrebbe incorrere in pesanti sanzioni.",
+            "accordion" : {
+                "chi è obbligato a rispettare il GDPR" : [
+                    "Sono obbligate tutte quelle aziende, anche con meno di 250 dipendenti, che operano nel campo della vendita di beni e servizi a persone dell’Unione europea e trattano o processano dati personali di cittadini dei paesi dell’Ue."
+                ],
+                "Checklist Compliance GDPR - Guida 2022" : [
+                    "Ogni realtà imprenditoriale dovrebbe avere un responsabile preposto alla gestione di dati sensibili dei clienti. Per darti un'idea della complessità del GDPR puoi consultare questa checklist di controllo e valutare il tuo stato di conformità.",
+                    [
+                        "Conoscere i dati che stai raccogliendo",
+                        "Nominare un responsabile della protezione dei dati",
+                        "Creare un registro dei dati",
+                        "Raccogliere solo i dati necessari",
+                        "Inviare una segnalazione in caso di violazione dei dati",
+                        "Essere trasparente sull’uso dei dati che si raccolgono",
+                        "Verificare l’età di chi acconsente al trattamento dei dati",
+                        "Includere un doppio passaggio di sicurezza per le nuove iscrizioni alla tua mailing list",
+                        "Aggiornare sempre la Privacy e Cookies policy",
+                        "Valutare regolarmente tutti i rischi di terzi"
+                    ]
+                ],
+                "Come richiedere la conformità con un clic" : [
+                    "I nostri avvocati specializzati in Compliance GDPR possono essere contattati gratuitamente, accedendo alla tua area riservata e aprendo un ticket. Riceverai risposta entro 24 ore. In alternativa, puoi richiedere una video consulenza oppure direttamente il preventivo per stilare la tua GDPR."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "siti web",
+                    "slug": "siti-web"
+               
+                },
+                {
+                    "name": "pacchetti",
+                    "slug": " pacchetti "
+                },
+                {
+                    "name": "contrattualistica",
+                    "slug": "contrattualistica"        
+                }
+
+            ],
+            "banner":{
+                "title":"il primo centro servizi con il cashback.",
+                "text":"solo se paghi con la quickly card.",
+                "subtext":"e' gratuita, è inclusa nel tesseramento.",
+                "button":"entra adesso"
+            }
+        },
+        {
+            "id": 21,
+            "name": "registrazione marchi e brevetti",
+            "slug": "registrazione-marchi-e-brevetti",
+            "text": "I marchi insieme ai brevetti sono strumenti di tutela della proprietà industriale. Sia l’invenzione industriale da brevettare, sia il marchio, presuppongono la novità del prodotto o del marchio stesso.",
+            "accordion" : {
+                "i vantaggi della registrazione" : [
+                    "Registrare un marchio non è obbligatorio, ma fortemente consigliato in quanto attribuisce al titolare il diritto esclusivo di uso all’interno del territorio nel quale è stato depositato e impedisce l’uso non autorizzato da parte di terzi."
+                ],
+                "come si fa la registrazione di marchi e brevetti" : [
+                    "Prima di procedere con la registrazione è opportuno effettuare una ricerca attraverso la banca dell’UIBIM (Ufficio Italiano Brevetti e Marchi) che raccoglie le informazioni sui marchi, per evitare che quello scelto sia già esistente.",
+                    "Una volta appurato che il nostro marchio non sia stato già utilizzato possiamo procedere con la registrazione che può essere presentata attraverso due modalità:",
+                    [
+                        "cartacea, a mezzo posta raccomandata all’Ufficio Italiano Brevetti e Marchi o con deposito presso la Camera di Commercio del proprio territorio;",
+                        "telematica, tramite il sito dell’UIBM."
+                    ]
+                ],
+                "come rendere molto più facile questa operazione" : [
+                    "Puoi affidare l'esecuzione di questa pratica ai nostri partner tecnici che conoscono perfettamente la modalità di presentazione della modulistica ai vari uffici. In questo modo elimini completamente le perdite di tempo e, soprattutto, puoi ovviare in anticipo a ogni richiesta  che puntualmente viene fatta su pratiche incomplete o inesatte. Accedi alla tua area riservata e apri un ticket gratuito oppure richeidi una video consulenza prenotandola con un clic. Ricevi informazioni esatte e puntuali, predisponi la giusta documentazione e proteggi velocemente il tuo business."
+                ]
+                           },
+            "correlati": [
+                {
+                    "name": "personal branding",
+                    "slug": "personal-branding"         
+                },
+                {
+                    "name": "compliance GDPR",
+                    "slug": "compliance-gdpr"        
+                },
+                {
+                    "name": "accordo di riservatezza (NDA)",
+                    "slug": "accordo-di-riservatezza-nda"        
+                }
+
+            ],
+            "banner":{
+                "title":"un piccolo clic per te, un grande passo per il tuo business.",
+                "text":"tesserati e scopri un mondo meraviglioso.",
+                "subtext":"per te e per la tua attività.",
+                "button":"tesserati ora"
+            }
+        },
+        {
+            "id": 22,
+            "name": "accordo di riservatezza (NDA)",
+            "slug": "accordo-di-riservatezza-nda",
+            "text": "L’accordo di riservatezza, noto anche come NDA “Non disclosure agreement” è un documento stipulato al fine di garantire che le informazioni ritenute riservate rimangano tali e non vengano divulgate a terzi. I dati contenuti all’interno del patto non devono essere già noti al pubblico dominio o l’accordo stesso non avrebbe ragione di esistere. Con il patto di riservatezza è possibile imporre al dipendente o al collaboratore di non divulgare a terzi alcuna informazione riservata.",
+            "accordion" : {
+                "cosa deve contenere un NDA e durata" : [
+                    "Di solito un accordo di riservatezza dura 3-5 anni ma è possibile indicare una durata indeterminata, per esempio, nel caso in cui si condividano informazioni legare al know-how non brevettabile, informazioni personali."
+                ],
+                "quando è consigliato usare l'accordo di riservatezza" : [
+                    "È importante usarlo quando si intende dare maggiore tutela al datore lavoro, per esempio, all’interno del contratto di lavoro o in un momento successivo."
+                ],
+                "come richiedere la stesura di un Accordo di Riservatezza su misura" : [
+                    "Quisviluppo.com ti offre questo servizio. Per poterne usufruire accedi alla tua area riservata ed apri un ticket gratuitamente. Un nostro partner tecnico specializzato sarà lieto di gestire velocemente la richiesta in base alle tue necessità."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "contrattualistica",
+                    "slug": "contrattualistica"               
+                },
+                {
+                    "name": "siti web",
+                    "slug": "siti-web"        
+                },
+                {
+                    "name": "compliance GDPR",
+                    "slug": "compliance-gdpr"        
+                }
+
+            ],
+            "banner":{
+                "title":"pensa a tutti i tuoi problemi di business.",
+                "text":"ora sappi che li puoi risolvere con pochi clic.",
+                "subtext":"la serenità e la soddisfazione sono incluse.",
+                "button":"risolvi, tesserati"
+            }
+        },
+        {
+            "id":23,
+            "name": "pratiche di sovraindebitamento",
+            "slug": "pratiche-di-sovraindebitamento",
+            "text": "Il sovraindebitamento permette al debitore di pagare legalmente solo quello che gli è possibile pagare, cancellando il suo debito.",
+            "accordion" : {
+                "come funziona il meccanismo del sovraindebitamento e la legge 3/2012" : [
+                    "La legge 3/2012, denominata “Disposizione in materia di usura e di estorsione, nonché di composizione delle crisi da sovraindebitamento”, stabilisce che il debitore si trova in una situazione di sovraindebitamento quando non è più in grado di pagare i propri debiti, poiché le sue disponibilità economiche sono inferiori rispetto ai debiti che deve estinguere.",
+                    "Grazie alle procedure per la crisi di sovraindebitamento indicate da questa Legge, detta “anti suicidi”, il debitore può saldare il debito nei limiti delle sue possibilità, e ottenere quindi la cancellazione della parte rimanente del debito che non riesce a pagare."
+                ],
+                "chi può accedere al sovraindebitamento" : [
+                    "Per poter richiedere il sovraindebitamento occorre avere due requisiti, uno oggettivo e un altro soggettivo. Il primo consiste nel fatto che il debitore si trovi nella situazione di sovraindebitamento, dunque, sia impossibilitato a pagare i debiti contratti a causa della sua indisponibilità economica.",
+                    "Nel requisito soggettivo rientrano coloro definiti “non fallibili”, ovvero, quei soggetti che non rientrano nella Legge fallimentare italiana.",
+                    "Nello specifico si tratta di:",
+                    [
+                        "Consumatori",
+                        "Aziende agricole",
+                        "Professionisti e artisti, insieme anche alle società di professionisti",
+                        "Piccoli imprenditori non fallibili",
+                        "Enti privati che non svolgono attività commerciale (come ad esempio le associazioni)",
+                        "Start up innovative"
+                    ]
+                ],
+                "vantaggi di questa pratica" : [
+                    "I vantaggi di questa pratica sono molti. Aiuta a contrastare qualsiasi tipo di procedura esecutiva nei confronti del debitore, così che il debitore possa vedere alleggerire la pressione esercitata su di sé dai creditori e cercare di rinegoziare i propri debiti.",
+                    "Inoltre, il debitore potrà avere di nuovo accesso al credito, cancellando il proprio nominativo dalla Centrale dei Rischi."
+                ],
+                "come richiedere velocemente questa pratica" : [
+                    "Devi solo accedere alla tua area riservata e aprire un ticket gratuito per ricevere le prime informazioni. Otterrai risposta entro 24 ore. Altrimenti, per velocizzare ancora di più, puoi prenotare una video consulenza, con un clic, e avere un confronto immediato con un nostro partner tecnico."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "gestione del debito fiscale",
+                    "slug": "gestione-del-debito-fiscale"             
+                },
+                {
+                    "name": "consulenza tributaria",
+                    "slug": "consulenza-tributaria"        
+                },
+                {
+                    "name": "pratiche per bandi e fondi PNRR",
+                    "slug": "pratiche-per-bandi-e-fondi-pnrr"        
+                }
+
+            ],
+            "banner":{
+                "title":"regalati un centro servizi al prezzo di una consulenza.",
+                "text":"parla con il professionista che ti serve quando ti serve, basta un clic.",
+                "subtext":"si, tutto questo è strepitoso.",
+                "button":"entra ora"
+            }
+        },
+        {
+            "id": 24,
+            "name": "gestione del debito fiscale",
+            "slug": "gestione-del-debito-fiscale",
+            "text": "Il debito fiscale è un obbligo legale che una persona fisica o giuridica ha nei confronti della pubblica amministrazione. Nello specifico, si tratta di una somma di denaro che la persona fisica o giuridica deve versare alla Pubblica Amministrazione.",
+            "accordion" : {
+                "come chiudere i debiti con il Fisco" : [
+                    "Esistono diversi modi per estinguere il debito, il primo tra tutti è pagare il debito e può essere fatto in un’unica soluzione o suddiviso in rate.",
+                    "Poi, c’è la prescrizione, la legge, infatti, determina un termine di prescrizione del debito. Nel caso in cui la PA non intervenga, una volta trascorso il periodo di tempo utile, il debito cadrà in prescrizione.",
+                    "L’insolvenza è quella condizione nella quale il debitore dimostra di non avere la capacità di pagare il debito.",
+                    "La compensazione è quando sia il creditore che il debitore hanno dei pagamenti in sospeso tra loro e decidono di compensare i pagamenti."
+                ],
+                "scegliere il professionista giusto" : [
+                    "Affidarsi ad un professionista in questi casi è la soluzione migliore perché ti permette di fare chiarezza e ottenere prospettive reali per la risoluzione del problema. Ricominciare liberi dal debito è possibile, l’importante è farsi seguire da chi sa cogliere ogni cavillo utile a difendersi dal Fisco."
+                ],
+                "come accedere al servizio" : [
+                    "Per poter richiedere una consulenza con un partner specializzato in Fisco e tributi accedi nella tua area riservata. Apri un ticket gratuito o prenota  una video consulenza per poter approfondire eventuali documenti in tuo possesso e studiare una possibile strategia di contrattacco."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "consulenza tributaria",
+                    "slug": "consulenza-tributaria"                 
+                },
+                {
+                    "name": "cancellazione della sofferenza bancaria",
+                    "slug": "cancellazione-della-sofferenza-bancaria"        
+                },
+                {
+                    "name": "pratiche di sovraindebitamento",
+                    "slug": "pratiche-di-sovraindebitamento"
+                }
+
+            ],
+            "banner":{
+                "title":"non è solo una tessera, è l'accesso alla rete.",
+                "text":"l'unione fa la forza.",
+                "subtext":"la rivoluzione è iniziata, facciamo rete, avrai solo vantaggi.",
+                "button":"entra nella rete"
+            }
+        },
+        {
+            "id": 25,
+            "name": "corporate identity",
+            "slug": "corporate-identity",
+            "text": "La Corporate identity rappresenta la storia, la mission e la vision di un’azienda. Nello specifico, si tratta della personalità aziendale che viene mostrata attraverso il logo, il packaging, i colori scelti e la comunicazione in generale, sia online che offline. Il naming rappresenta, in senso ampio, il valore di un marchio.",
+            "accordion" : {
+                "naming" : [
+                    "Oggi è molto importante trovare il naming adatto alla propria azienda, in quanto è un elemento in grado di trasmettere un’identità solida all’impresa, al prodotto o servizio. Le due funzioni immediatamente svolte dal “nome perfetto per la tua attività” sono quelle di rendere subito riconoscibile ciò che si vende e di differenziarsi dalla concorrenza."
+                ],
+                "logo design" : [
+                    "Il logo design è l’elemento grafico identificativo di un’azienda ed è un’arma strategica che ti permette di differenziarti in un mercato sempre più affollato e competitivo.",
+                    "È fondamentale affidarsi ad un professionista per realizzarlo. Questo elemento ti aiuterà nel dare la prima buona impressione e a creare una relazione con i tuoi utenti. Inoltre, influenzerà l'andamento degli acquisti, attirando solo potenziali clienti in linea con i valori del brand stesso. Il giusto brand per il giusto target."
+                ],
+                "come eroghiamo il servizio" : [
+                    "Quisviluppo.com può realizzare  il logo perfetto per il tuo business. I nostri esperti sapranno tradurre graficamente la tua storia aziendale, oppure coglieranno quell'aspetto in grado di far distinguere fin da subito il tuo nuovo business.",
+                    "Accedi alla tua area riservata e apri un ticket gratuito per parlare subito con un nostro graphic designer. Esponi le tue esigenze e i tuoi desideri. Entro 24 ore riceverai risposta e potrai valutare meglio cosa fare. Se intendi proseguire o hai bisogno di informazioni più specifiche puoi prenotare con un clic una video consulenza oppure richiedere un preventivo."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "pacchetti",
+                    "slug": " pacchetti "                       
+                },
+                {
+                    "name": "consulenza marketing",
+                    "slug": "consulenza-marketing"        
+                },
+                {
+                    "name": "influencer marketing",
+                    "slug": "influencer-marketing"        
+                }
+
+            ],
+            "banner":{
+                "title":"uno dei minuti più importanti della tua vita.",
+                "text":"il tesseramento cambierà in meglio il tuo modo di lavorare.",
+                "subtext":"tutto il resto è compreso.",
+                "button":"tesserati ora"
+            }
+        },
+        {
+            "id": 26,
+            "name": "personal branding",
+            "slug": "personal-branding",
+            "text": "Il Personal Branding è un insieme di strategie di marketing mirate a promuovere sé stessi, le proprie competenze e il proprio brand. Il tutto, sempre a vantaggio del proprio business. Si adatta ad ogni settore e dimensione aziendale. Il personal branding viene sempre più usato da professionisti e artigiani. Crea autorevolezza e fiducia agli occhi del proprio pubblico.",
+            "accordion" : {
+                "a cosa serve il Personal Branding" : [
+                    "Fare Personal Branding serve a costruire la propria immagine cercando di comunicare il meglio di sé, oppure una caratteristica particolare, per evidenziare in modo differenziato i punti di forza e le competenze professionali.",
+                    "Per fare ciò occorre lavorare molto sulla reputazione e sulla propria presenza fisica (noti sono gli esempi dell'indossare sempre un colore specifico), in modo tale da lasciare il segno negli altri  e rendersi facilmente riconoscibili."
+                ],
+                "come fare Personal Branding" : [
+                    "Uno strumento che ti può aiutare nel fare Personal Branding è lo storytelling. Attraverso il racconto della tua storia puoi avvicinarti al target che si riconosce nel tuo vissuto. Oppure puoi specializzarti e acquisire la fiducia degli utenti grazie alle tue competenze e alla sicurezza che trasmetti."
+                ],
+                "come viene erogato il servizio" : [
+                    "Un nostro esperto di personal branding può consigliarti la strada più adatta al tuo carattere, conciliandola con il tuo business. Entra nella tua area riservata, apri un ticket gratuito oppure prenota una video consulenza con un clic."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "consulenza marketing",
+                    "slug": "consulenza-marketing"        
+                },
+                {                    
+                    "name": "pacchetti",
+                    "slug": " pacchetti "
+                },
+                {
+                    "name": "gestione social media",
+                    "slug": "gestione-social-media"        
+                }
+
+            ],
+            "banner":{
+                "title":"apri, gestisci, risolleva e fai crescere la tua impresa.",
+                "text":"parli con decine di professionisti, gratuitamente e senza limiti.",
+                "subtext":"anche questo fa parte della rivoluzione.",
+                "button":"entra subito"
+            }
+        },
+        {
+            "id": 27,
+            "name": "consulenza marketing",
+            "slug": "consulenza-marketing",
+            "text": "Fare (web) marketing significa capire quale strategia operativa possa essere utile per aumentare il fatturato o raggiungere altri obiettivi che un'azienda, o un professionista, si pone. Attraverso il (web) marketing è possibile progettare piani che dicano esattamente cosa fare, giorno per giorno, per riuscire a interagire con il proprio target. Individuare i canali da utilizzare, i social media da presenziare e il come differenziarsi sono azioni che dovrebbero fare ogni tipologia di attività, dalla più piccola alla più grande.",
+            "accordion" : {
+                "l'importanza del (web) marketing per le attività locali" : [
+                    "Per attività locale si intende un'azienda, o un professionista, che opera in un contesto geografico contenuto. Si parla, ad esempio, di bar, ristoranti, negozi, artigiani e micro aziende. Il (web) marketing può essere una risorsa molto potente perchè, ad esempio, ogni interazione su dispositivi mobili può portare a vendite online oppure ad acquisti direttamente in negozio. Avere una presenza efficace online, anche per la più piccola delle attività può fare oggi la differenza tra il fatturare in modo costante e il chiudere definitivamente."
+                ],
+                "fare marketing per produrre risultati immediati" : [
+                    "Preparare una campagna su Google Adwords, usufruire del servizio di influencer marketing, utilizzare l’email marketing, indicizzare i contenuti sui motori di ricerca, creare una community sui social, sono alcune delle attività che possono aiutare la tua attività a raggiungere un ampio pubblico in poco tempo. Le soluzioni e gli strumenti che il web mette a disposizione sono molti e, se usati in modo professionale, possono portare a risultati quasi inaspettati."
+                ],
+                "come eroghiamo il servizio" : [
+                    "Quisviluppo.com mette a tua disposizione esperti di (web) marketing specializzati in ogni settore merceologico esistente. Accedendo alla tua area riservata puoi aprire un ticket per sottoporre le tue prime richieste e poterti poi orientare al meglio. Puoi anche richiedere una video consulenza e ottenere subito strategie mirate e performanti."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "personal branding",
+                    "slug": "personal-branding"                
+                },
+                {
+                    "name": "pacchetti",
+                    "slug": " pacchetti "
+                },
+                {
+                    "name": "corporate identity",
+                    "slug": "corporate-identity"        
+                }
+
+            ],
+            "banner":{
+                "title":"facciamo rete e diventiamo più forti dei big dell'e-commerce.",
+                "text":"questo è il web al servizio delle economie locali.",
+                "subtext":"tesserati e fai tesserare.",
+                "button":"tesserati subito"
+            }
+        },
+        {
+            "id": 28,
+            "name": "influencer marketing",
+            "slug": "influencer-marketing",
+            "text": "L’influencer marketing è un modo alternativo per pubblicizzarsi online affidandosi a un influencer o micro influencer. Questa strategia ti permette di aumentare la tua awareness (notorietà del marchio) e le conversioni attraverso l’ausilio di, ad esempio,  youtuber, instagramer o tiktoker che hanno un ampio seguito sui propri canali social, spesso specializzati in un determinato settore (food, travel, beauty, fashion, tech).",
+            "accordion" : {
+                "quali sono i vantaggi" : [
+                    "I social network sono il campo di battaglia dove si crea il contatto tra l’influencer e il follower. Sfruttando la fiducia che gli utenti hanno nei confronti dell’influencer, l’azienda può usare questo canale per avvicinarsi agli utenti.",
+                    "I vantaggi legati a questa strategia sono molti, per esempio, puoi parlare del tuo prodotto attraverso un testimonial che abbia una forte reputazione nella tua nicchia di mercato. Il risultato finale porta spesso a molte vendite dirette e immediate grazie anche a promozioni create ad hoc.",
+                    "Molto spesso vengono scelti micro influencer per contenere sia l'investimento ma anche perchè i loro follower sono estremamente fidelizzati e targettizzati. Questo genera comunque un buon livello di vendite senza ricorrere a nomi estremamente blasonati."
+                ],
+                "l'influencer marketing per ogni tipologia e dimensione di attività" : [
+                    "L’influencer marketing può essere applicato a qualsiasi attività, di qualunque settore merceologico purchè compatibile con il corrispondente influencer. Infatti, è fondamentale avere il giusto matching fra influencer e azienda. Altrimenti, il grande vantaggio di promuoversi ad un pubblico già selezionato ed estremamente attento a certe tematiche va a morire."
+                ],
+                "come viene erogato il servizio" : [
+                    "Vai nella tua area riservata e inizia a chiedere informazioni aprendo un ticket grauito. Un nostro social media manager ti risponderà entro 24 ore. In seguito, potrai fare altre domande, oppure prenotare con un clic una video consulenza, o richiedere la ricerca del giusto influencer per il tuo business."
+                ]
+            },
+            "correlati": [
+                {
+                    "name": "consulenza marketing",
+                    "slug": "consulenza-marketing"              
+                },
+                {
+                    "name": "gestione social media",
+                    "slug": "gestione-social-media"        
+                },
+                {
+                    "name": "pacchetti",
+                    "slug": " pacchetti "
+                }
+
+            ],
+            "banner":{
+                "title":"il sorriso che ci interessa non è sui pacchi ma sul tuo volto.",
+                "text":"non è solo uno slogan, è il nostro modo di lavorare.",
+                "subtext":"tu sei al centro dei nostri servizi. ",
+                "button":"tesserati in 1 minuto"
+            }
+        },
+        {
+            "id": 29,
+            "name": "siti web",
+            "slug": "siti-web",
+            "text": "Esistono svariate tipologie di siti web, esistono diversi stili, diversi scopi. Oggi chiunque può avere un sito web, ma sono ancora troppo poche le attività che lo usano in modo veramente utile per aumentare il proprio fatturato.",
+            "accordion" : {
+                "perché è importante avere un sito web nel 2022, soprattutto per le attività locali" : [
+                    "Praticamente tutti i proprietari di smartphone (che sono in netta maggioranza rispetto ai soli proprietari di computer) utilizzano internet per cercare informazioni sulle aziende,  sui prodotti e per leggere recensioni prima di acquistare beni o servizi anche di uso quotidiano.",
+                    "Inoltre, negli ultimi tre anni, gli acquisti fatti direttamente online sono aumentati in modo vertiginoso.",
+                    "Ormai bisogna allontanarsi dall'idea di sito vetrina dove gli utenti non possono acquistare nulla o comunque scegliere fra un'ampia offerta di ciò che vendi. Questi siti sono solo inutili.",
+                    "Questo vale ancora di più per le attività locali, cioè operanti in un'area geografica ristretta (solitamente cittadina o poco oltre).",
+                    "L'abitudine di acquistare, o prenotare, online qualunque prodotto o servizio è ormai consolidata. Ora è il momento giusto per usare il web in modo intelligente e soprattutto proficuo."
+                ],
+                "come viene erogato il servizio" : [
+                    "Entra nella tua area riservata, apri un ticket gratuito oppure prenota direttamente una video consulenza con un clic. Esponi le tue richieste e il nostro team saprà darti indicazioni estremamente precise su cosa devi fare per portare il tuo business online in modo veloce e  profittevole."
+                ]
+                           },
+            "correlati": [
+                {
+                    "name": "consulenza marketing",
+                    "slug": "consulenza-marketing"                
+                },
+                {
+                    "name": "compliance GDPR",
+                    "slug": "compliance-gdpr"        
+                },
+                {
+                    "name": "pacchetti",
+                    "slug": " pacchetti "
+                }
+
+            ],
+            "banner":{
+                "title":"chat, video consulenze e professionisti reali. usali.",
+                "text":"questo è il nuovo mondo dei servizi per le imprese.",
+                "subtext":"tutto a portata di clic.",
+                "button":"accedi subito"
+            }
+        },
+        {
+            "id": 30,
+            "name": "gestione social media",
+            "slug": "gestione-social-media",
+            "text": "Nel 2022 sono oltre 4 miliardi gli utenti che utilizzano i social media. Mi riferisco a Facebook, Twitter, Instagram, Linkedin, Youtube, Tiktok, Twitch, Pinterest e altri ancora. Un numero davvero impressionante, specie se si pensa che potrebbero essere tutti dei potenziali clienti per il tuo business. Ecco perché è molto importante che la gestione dei social media della tua impresa venga fatta in maniera professionale, senza lasciare nulla al caso, come troppo spesso accade. Infatti, oggi non basta più essere presenti, magari con una pagina fantasma di Facebook della propria attività. La cosa fondamentale è il “come esserci” e non l'esserci comunque.",
+            "accordion" : {
+                "adotta la strategia giusta. Ecco come fare." : [
+                    "Quello che vedi pubblicato sui social media è solo una piccola parte del lavoro. Dietro c’è uno studio e una pianificazione strategica molto accurata. Si parte dall’analisi oggettiva del business e del target per poter scegliere il social media più frequentato dai propri potenziali clienti. Si effettua anche uno studio dei competitor per monitorare i dove raccolgono più successo e con quali tipologie di contenuti.",
+
+                    "Non tutte le piattaforme sono uguali, come non è detto che si debba essere presenti contemporaneamente su tutti i canali social. Ogni social media ha un suo linguaggio, i relativi utenti si aspettano determinate tipologie di contenuti. Infatti, un errore molto diffuso è quello di creare un post e diffonderlo in modo identico su ogni piattatorma social. Il Ped, piano editoriale, è uno degli strumenti più importanti che vede l’incontro tra strategia e operatività. Infine, una volta pubblicato i contenuti il lavoro continua. Si passa, infatti, alle fasi di monitoraggio, moderazione e alla creazione settimanale del  report  con l'analisi delle KPI (Key Performance Indicators). I social media vanno usati in modo professionale, solo così potranno contribuire, anche fortemente, al fatturato aziendale."
+                ],
+                "Come viene erogato il servizio" : [
+                    "Quisviluppo.com ti aiuta anche nella gestione dei tuoi social. I nostri esperti sono pronti a strutturare la strategia più adatta al tuo business. Per iniziare, puoi accedere alla tua area riservata e aprire un ticket gratuito. Riceverai risposta entro 24 ore. Oppure puoi richiedere subito una video consulenza, prenotando con un clic."
+                ]   
+            },
+            "correlati": [
+                {
+                    "name": "influencer marketing",
+                    "slug": "influencer-marketing"        
+                },
+                {
+                    "name": "personal branding",
+                    "slug": "personal-branding"        
+                },
+                {
+                    "name": "pacchetti",
+                    "slug": " pacchetti "
+                }
+
+            ],
+            "banner":{
+                "title":"stiamo cambiando il modo di vendere.",
+                "text":"ormai siamo realtà e la rivoluzione è iniziata.",
+                "subtext":"tesserati e fai tesserare. ",
+                "button":"tesserati"
+            }
+        }
+    ]
+}
