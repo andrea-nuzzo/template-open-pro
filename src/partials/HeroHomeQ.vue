@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="relative">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 relative">
       <!-- Illustration behind hero content -->
       <div
@@ -39,9 +39,9 @@
       </div>
 
       <!-- Hero content -->
-      <div class="relative pt-32 pb-10 md:pt-40 md:pb-16">
+      <div class=" pt-32 pb-10 md:pt-40 md:pb-16">
         <!-- Section header -->
-        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+        <div class=" max-w-3xl mx-auto text-center pb-12 md:pb-16" >
           <h1 class="h1 mb-4" data-aos="fade-up">
             Il Centro Servizi tutto in un clic.
           </h1>
@@ -65,21 +65,21 @@
         </div>
 
         <!-- Hero image -->
-        <div>
-          <div
-            class="relative flex justify-center items-center"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <img
-              class="mx-auto"
-              src="https://picsum.photos/1000/1000"
-              width="1024"
-              height="504"
-              alt="Hero"
-            />
-          </div>
-        </div>
+<!--        <div>-->
+<!--          <div-->
+<!--            class=" relativeflex justify-center items-center"-->
+<!--            data-aos="fade-up"-->
+<!--            data-aos-delay="200"-->
+<!--          >-->
+<!--            <img-->
+<!--              class="mx-auto"-->
+<!--              src="../images/quisv-home-hero1-xl.webp"-->
+<!--              width="1024"-->
+<!--              height="504"-->
+<!--              alt="Hero"-->
+<!--            />-->
+<!--          </div>-->
+<!--        </div>-->
       </div>
     </div>
   </section>

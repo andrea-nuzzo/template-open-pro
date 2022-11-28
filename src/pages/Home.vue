@@ -15,7 +15,7 @@
       </div>
 
       <!-- Page sections -->
-      <HeroHomeQ />
+      <HeroHomeQ class="bg-no-repeat bg-cover bg-pack-train"/>
       <!-- Servizi in evidenza -->
       <div class="text-center mt-10 mb-10" data-aos-id-target>
         <!-- Servizi in Evidenza -->
@@ -141,7 +141,7 @@
 
       <!-- Riportare persone a comprare nei negozi -->
       <div
-        class="relative pb-10 md:pt-40 md:pb-16 bg-no-repeat bg-cover bg-[url('https://picsum.photos/id/237/1000/1000')]"
+        class="relative pb-10 md:pt-40 md:pb-16 bg-no-repeat bg-cover bg-riportare"
       >
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
           <h1 class="h1 mb-4" data-aos="fade-up">

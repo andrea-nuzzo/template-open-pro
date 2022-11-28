@@ -4,6 +4,10 @@ module.exports = {
     './src/**/*.{vue,js,ts,jsx,tsx}',
   ],
   theme: {
+    backgroundImage: {
+      'pack-train': "url('../src/images/quisv-home-hero1-xl.webp')",
+      'riportare': "url('../src/images/quisv-home-centrale-xl.webp')",
+    },
     extend: {
       colors: {
         gray: {
@@ -68,7 +72,7 @@ module.exports = {
       },
       scale: {
         '98': '.98'
-      },      
+      },
     },
   },
   plugins: [
