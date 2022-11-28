@@ -9,59 +9,146 @@
         </div>
 
         <!-- Contact form -->
-        <form class="max-w-xl mx-auto">
+        <VeeForm class="max-w-xl mx-auto" @submit="sendRegistration" v-slot="{errors}">
 
-          <!-- CODICE FISCALE-->
+          <!-- Tax Code-->
           <div class="flex flex-wrap -mx-3 mb-4">
             <div class="w-full px-3">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="email">Codice Fiscale <span class="text-red-600">*</span></label>
-              <input id="email" type="email" class="form-input w-full text-gray-300" placeholder="Enter your email address" required />
+              <label class="block text-gray-200 text-sm font-medium mb-1" for="taxCode">Codice Fiscale
+                <span :class="{'text-red-500' : errors.taxCode}"> *</span>
+              </label>
+              <VeeField
+                  v-model="form.taxCode"
+                  rules="required|isValidTaxCode"
+                  name="taxCode"
+                  id="taxCode"
+                  type="text"
+                  :class="{'border-red-500' : errors.password}"
+                  class="form-input w-full border-gray-200 text-gray-200"
+                  placeholder="Codice Fiscale"
+                  label="Codice Fiscale"/>
+              <VeeErrorMessage name="taxCode" class="text-red-500 text-sm mt-2"/>
             </div>
           </div>
 
-          <!-- FIRST AND LAST NAME-->
+          <!-- Container first name and last name-->
           <div class="flex flex-wrap -mx-3 mb-4">
-            <!-- FIRST NAME-->
+
+            <!-- First name-->
             <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="first-name">Nome<span class="text-red-600">*</span></label>
-              <input id="first-name" type="text" class="form-input w-full text-gray-300 border-red-500 focus:border-red-500" placeholder="Enter your first name" required />
-              <p class="text-red-500 text-sm mt-2">This field is required</p>
+              <label
+                  class="block text-gray-200 text-sm font-medium mb-1"
+                  for="firstName"
+              >Nome<span :class="{'text-red-500' : errors.firstName}"> *</span></label>
+
+              <VeeField
+                  v-model="form.firstName"
+                  rules="required|min:3"
+                  name="firstName"
+                  id="firstName"
+                  type="text"
+                  :class="{'border-red-500' : errors.firstName}"
+                  class="form-input w-full text-gray-200"
+                  placeholder="Nome"
+                  label="Nome"/>
+              <VeeErrorMessage name="firstName" class="text-red-500 text-sm mt-2"/>
             </div>
-            <!-- LAST NAME-->
+
+            <!-- Last Name-->
             <div class="w-full md:w-1/2 px-3">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="last-name">Cognome<span class="text-red-600">*</span></label>
-              <input id="last-name" type="text" class="form-input w-full text-gray-300" placeholder="Enter your last name" required />
+              <label
+                  class="block text-gray-200 text-sm font-medium mb-1"
+                  for="lastName">
+                Cognome<span :class="{'text-red-500' : errors.lastName}"> *</span></label>
+              <VeeField
+                  rules="required|min:3"
+                  v-model="form.lastName"
+                  name="lastName"
+                  id="lastName"
+                  type="text"
+                  :class="{'border-red-500' : errors.lastName}"
+                  class="form-input w-full text-gray-200"
+                  placeholder="Cognome"
+                  label="Cognome"
+              />
+              <VeeErrorMessage name="lastName" class="text-red-500 text-sm mt-2"/>
             </div>
           </div>
 
-          <!-- EMAIL-->
+          <!-- Email-->
           <div class="flex flex-wrap -mx-3 mb-4">
             <div class="w-full px-3">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="email">Email <span class="text-red-600">*</span></label>
-              <input id="email" type="email" class="form-input w-full text-gray-300" placeholder="Enter your email address" required />
+              <label class="block text-gray-200 text-sm font-medium mb-1" for="email">Email<span :class="{'text-red-500' : errors.email}"> *</span></label>
+              <VeeField
+                  v-model="form.email"
+                  rules="required|email"
+                  name="email"
+                  id="email"
+                  type="email"
+                  :class="{'border-red-500' : errors.email}"
+                  class="form-input w-full text-gray-300"
+                  placeholder="Email"
+                  label="Email"/>
+              <VeeErrorMessage name="email" class="text-red-500 text-sm mt-2"/>
             </div>
           </div>
 
-          <!-- PASSWORD-->
+          <!-- Container Password and Password Confirmation-->
           <div class="flex flex-wrap -mx-3 mb-4">
-            <!-- PASSWORD-->
+
+            <!-- Password-->
             <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="first-name">Password <span class="text-red-600">*</span></label>
-              <input id="first-name" type="text" class="form-input w-full text-gray-300 border-red-500 focus:border-red-500" placeholder="Enter your first name" required />
-              <p class="text-red-500 text-sm mt-2">This field is required</p>
+              <label
+                  class="block text-gray-200 text-sm font-medium mb-1"
+                  for="password"
+              >Password<span :class="{'text-red-500' : errors.password}"> *</span></label>
+              <VeeField
+                  v-model="form.password"
+                  rules="required|min:8"
+                  name="password"
+                  id="password"
+                  type="password"
+                  :class="{'border-red-500' : errors.password}"
+                  class="form-input w-full text-gray-200"
+                  placeholder="Password"
+                  label="Password"/>
+              <VeeErrorMessage name="password" class="text-red-500 text-sm mt-2"/>
             </div>
-            <!-- PASSWORD CONFIRMATION-->
+
+            <!-- Password Confirmation-->
             <div class="w-full md:w-1/2 px-3">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="last-name">Conferma Password <span class="text-red-600">*</span></label>
-              <input id="last-name" type="text" class="form-input w-full text-gray-300" placeholder="Enter your last name" required />
+              <label
+                  class="block text-gray-200 text-sm font-medium mb-1"
+                  for="passwordConfirmation"
+              >Conferma Password<span :class="{'text-red-500' : errors.passwordConfirmation}"> *</span></label>
+              <VeeField
+                  rules="confirmed:@password|required"
+                  name="passwordConfirmation"
+                  id="passwordConfirmation"
+                  type="password"
+                  :class="{'border-red-500' : errors.passwordConfirmation}"
+                  class="form-input w-full text-gray-300"
+                  placeholder="Conferma Password"
+                  label="Conferma Password"/>
+              <VeeErrorMessage name="passwordConfirmation" class="text-red-500 text-sm mt-2"/>
             </div>
           </div>
 
-          <!-- TELEFONO-->
+          <!-- Mobile-->
           <div class="flex flex-wrap -mx-3 mb-4">
             <div class="w-full px-3">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="email">Telefono<span class="text-red-600">*</span></label>
-              <input id="email" type="email" class="form-input w-full text-gray-300" placeholder="Enter your email address" required />
+              <label class="block text-gray-200 text-sm font-medium mb-1" for="mobile">Telefono<span :class="{'text-red-500' : errors.email}"> *</span></label>
+              <VeeField
+                  v-model="form.mobile"
+                  rules="required"
+                  name="mobile"
+                  id="mobile"
+                  type="text"
+                  :class="{'border-red-500' : errors.mobile}"
+                  class="form-input w-full text-gray-300"
+                  placeholder="Telefono Cellulare"
+                  label="Telefono"/>
+              <VeeErrorMessage name="mobile" class="text-red-500 text-sm mt-2"/>
             </div>
           </div>
 
@@ -70,76 +157,140 @@
             <div class="inline-flex items-center">
               <div class="text-gray-500 font-medium mr-3">Portafoglio Clienti</div>
               <div class="form-switch">
-                <input type="checkbox" name="pricing-toggle" id="pricing-toggle" class="sr-only" v-model="value" />
+                <input type="checkbox" name="pricing-toggle" id="pricing-toggle" class="sr-only" v-model="customerPortfolio" />
                 <label class="bg-gray-600" for="pricing-toggle">
                   <span class="bg-gray-100" aria-hidden="true"></span>
-                  <span class="sr-only">Enable to see yearly prices</span>
                 </label>
               </div>
             </div>
           </div>
 
-          <!-- SETTORE MERCEOLOGICO E NUMERO CLIENTI-->
+          <!-- Container  Industry Sector Number of Customers-->
           <div class="flex flex-wrap -mx-3 mb-8">
-            <!-- SETTORE MERCEOLOGICO-->
+
+            <!-- Industry Sector-->
             <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="country">Settore Merceologico</label>
-              <select id="country" class="form-select w-full text-gray-300">
-                <option>United States</option>
-                <option>United Kingdom</option>
-                <option>Germany</option>
-              </select>
+              <label class="block text-gray-200 text-sm font-medium mb-1" for="industrySector">Settore Merceologico<span :class="{'text-red-500' : errors.industrySector}"> *</span></label>
+              <VeeField name="industrySector"
+                        as="select"
+                        id="industrySector"
+                        v-model="form.industrySector"
+                        :disabled="!customerPortfolio"
+                        :rules="customerPortfolio ? 'required' : ''"
+                        :class="{'border-red-500' : errors.industrySector}"
+                        class="form-select w-full text-gray-200"
+                        label="Settore Merceologico"
+                        placeholder="Settore Merceologico"
+              >
+                <option value="">Settore Merceologico</option>
+                <option v-for="item in industrySector" :key="item.value" :value="item.value">{{ item.text }}</option>
+              </VeeField>
+              <VeeErrorMessage name="industrySector" class="text-red-500 text-sm mt-2"/>
             </div>
 
-            <!-- NUMERO DEI CLIENTI-->
+            <!-- Number of Customers-->
             <div class="w-full md:w-1/2 px-3">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="last-name">Numero Clienti<span class="text-red-600">*</span></label>
-              <input id="last-name" type="text" class="form-input w-full text-gray-300" required />
+              <label class="block text-gray-200 text-sm font-medium mb-1" for="numberCustomers">Numero Clienti<span :class="{'text-red-500' : errors.numberCustomers}"> *</span></label>
+              <VeeField
+                  v-model="form.numberCustomers"
+                  :disabled="!customerPortfolio"
+                  :rules="customerPortfolio ? 'required' : ''"
+                  name="numberCustomers"
+                  id="numberCustomers"
+                  type="number"
+                  :class="{'border-red-500' : errors.numberCustomers}"
+                  class="form-input w-full text-gray-300"
+                  placeholder="Numero Clienti"
+                  label="Numero Clienti"/>
+              <VeeErrorMessage name="numberCustomers" class="text-red-500 text-sm mt-2"/>
             </div>
           </div>
-          <!-- Area toggle -->
+
+
           <div class="flex justify-center mb-4" data-aos="fade-up" data-aos-delay="400">
+
+            <!-- Area toggle -->
             <div class="inline-flex items-center">
-              <div class="text-gray-500 font-medium mr-3">Copertura Regionale</div>
+              <div class="text-gray-200 font-medium mr-3">Copertura Regionale</div>
               <div class="form-switch">
-                <input type="checkbox" name="area-toggle" id="area-toggle" class="sr-only" v-model="areaToggle" />
+                <input :disabled="!customerPortfolio" type="checkbox" name="area-toggle" id="area-toggle" class="sr-only" v-model="areaToggle" />
                 <label class="bg-gray-600" for="area-toggle">
                   <span class="bg-gray-100" aria-hidden="true"></span>
                 </label>
               </div>
-              <div class="text-gray-500 font-medium ml-3">Copertura Provinciale</div>
+              <div class="text-gray-200 font-medium ml-3">Copertura Provinciale</div>
             </div>
           </div>
 
-          <!-- REGIONE E PROVINCIA DI COPERTURA-->
+          <!-- Container Region  and Province-->
           <div class="flex flex-wrap -mx-3 mb-4">
-            <!-- REGIONI-->
+
+            <!-- Region-->
             <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="country">Copertura regionale</label>
-              <select id="country" class="form-select w-full text-gray-300">
-                <option>United States</option>
-                <option>United Kingdom</option>
-                <option>Germany</option>
-              </select>
+              <label class="block text-gray-200 text-sm font-medium mb-1" for="region">Regione<span :class="{'text-red-500' : errors.region}"> *</span></label>
+              <VeeField name="region"
+                        as="select"
+                        id="region"
+                        v-model="form.region"
+                        :disabled="!customerPortfolio || areaToggle"
+                        :rules="customerPortfolio ? 'required' : ''"
+                        :class="{'border-red-500' : errors.region}"
+                        class="form-select w-full text-gray-200"
+                        label="Regione"
+                        placeholder="Regione"
+              >
+                <option value="">Regione</option>
+                <option v-for="item in region" :key="item.id" :value="item.nome">{{ item.nome }}</option>
+              </VeeField>
+              <VeeErrorMessage name="region" class="text-red-500 text-sm mt-2"/>
             </div>
-            <!-- PROVINCE-->
-            <div class="w-full md:w-1/2 px-3">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="country">Copertura Provinciale</label>
-              <select id="country" class="form-select w-full text-gray-300">
-                <option>United States</option>
-                <option>United Kingdom</option>
-                <option>Germany</option>
-              </select>
+
+            <!-- Province-->
+            <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
+              <label class="block text-gray-200 text-sm font-medium mb-1" for="province">Provincia<span :class="{'text-red-500' : errors.province}"> *</span></label>
+              <VeeField name="province"
+                        as="select"
+                        id="province"
+                        v-model="form.province"
+                        :disabled="!customerPortfolio || !areaToggle"
+                        :rules="customerPortfolio ? 'required' : ''"
+                        :class="{'border-red-500' : errors.province}"
+                        class="form-select w-full text-gray-200"
+                        label="Provincia"
+              >
+                <option value="">Provincia</option>
+                <option v-for="item in province" :key="item.id" :value="item.nome">{{ item.nome }}</option>
+              </VeeField>
+              <VeeErrorMessage name="province" class="text-red-500 text-sm mt-2"/>
             </div>
           </div>
 
-          <!-- PARTTITA IVA-->
+          <!-- Vat number-->
           <div class="flex flex-wrap -mx-3 mb-4">
             <div class="w-full px-3">
-              <label class="block text-gray-300 text-sm font-medium mb-1" for="email">Partita IVA<span class="text-red-600">*</span></label>
-              <input id="email" type="email" class="form-input w-full text-gray-300" placeholder="Enter your email address" required />
+
+              <label
+                  class="block text-sm font-medium mb-1"
+                  for="vatNumber">Partita IVA
+                <span
+                    :class="{'text-red-500' : errors.email}"> *
+                    </span>
+              </label>
+              <VeeField
+                  :rules="customerPortfolio ? 'required|isValidVatNumber' : ''"
+                  v-model="form.vatNumber"
+                  :disabled="!customerPortfolio"
+                  name="vatNumber"
+                  id="vatNumber"
+                  type="number"
+                  :class="{'border-red-500' : errors.province}"
+                  class="form-input w-full"
+                  placeholder="Partita IVA"
+                  label="Partia IVA"/>
+              <VeeErrorMessage name="vatNumber" class="text-red-500 text-sm mt-2"/>
             </div>
           </div>
+
 
           <!-- PRIVACY-->
           <div class="flex flex-wrap -mx-3 mb-4">
@@ -157,7 +308,7 @@
               <button class="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Send</button>
             </div>
           </div>
-        </form>
+        </VeeForm>
       </div>
   </section>
 
@@ -165,6 +316,10 @@
 
 <script>
 import CtaContact from "../CtaContact.vue";
+import region from "../../data/regioni.json"
+import province from "../../data/province.json"
+import industrySector from "../../data/settore-merceologico.json"
+
 export default {
   name: "FormSalesperson",
 
@@ -174,9 +329,31 @@ export default {
 
   data(){
     return{
-      value: false,
+      region,
+      province,
+      industrySector,
+      form:{
+        taxCode: null,
+        firstName: null,
+        lastName: null,
+        email: null,
+        password: null,
+        mobile: null,
+        industrySector: null,
+        numberCustomers: null,
+        region:null,
+        province:null,
+        vatNumber: null
+      },
+      customerPortfolio: false,
       areaToggle: false,
     }
+  },
+
+  methods:{
+    sendRegistration(){
+      alert('Send')
+    },
   },
 }
 </script>
