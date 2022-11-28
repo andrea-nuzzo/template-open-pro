@@ -30,8 +30,7 @@
                 @submit="submit()"
                 v-slot="{ errors }"
               >
-                <!-- Container first name and last name-->
-                <!-- <div class="flex flex-wrap -mx-3 mb-4"> -->
+     
                 <!-- Motivo contatto -->
                 <div class="w-full mb-4 md:mb-0">
                   <label
@@ -123,7 +122,6 @@
                     class="text-red-500 text-sm mt-2"
                   />
                 </div>
-                <!-- </div> -->
 
                 <!-- Email-->
                 <div class="flex flex-wrap -mx-3 mb-4">
@@ -221,16 +219,25 @@
             </div>
           </div>
         </section>
-        <section class="relative bg-blue-500 lg:w-1/2">
-          <div class="max-w-6xl mx-auto px-4 sm:px-6 relative">
+        <section class="relative lg:w-1/2">
+          <div class="max-w-6xl mx-auto px-4 sm:px-6 relative flex flex-col justify-end">
             <div
-              class="pt-32 pb-12 md:pt-40 md:pb-20 flex justify-end flex-wrap"
+              class="pt-32 pb-12 md:pt-40 md:pb-20 flex justify-end"
             >
               <img
                 src="../images/logo/quisviluppo.svg"
                 width="350"
                 alt="quisviluppo-logo"
               />
+             
+            </div>
+            <div class="flex flex-col">
+              <div class="text-right">
+                <h4 class="h4 pb-6">VeMa Web S.r.l.</h4>
+                <p class="">Sede Legale</p>
+                <p class="pb-6">Via S. Agostino 12 - 63066 Grottammare (AP)</p>
+                <p>P.IVA / C.F. 02446480440</p> 
+              </div>
             </div>
           </div>
         </section>
