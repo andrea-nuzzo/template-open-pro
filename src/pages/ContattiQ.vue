@@ -189,13 +189,9 @@
                     class="form-input text-gray-200 w-2"
                   />
                   <div class="flex justify-between w-full">
-                    <VeeErrorMessage
-                      name="textMessage"
-                      class="text-red-500 text-sm mt-2"
-                    />
                     <label
                       class="block text-gray-200 text-sm font-medium mb-1 ml-2 md:ml-3"
-                      for="textMessage"
+                      for="consent"
                       >Accetto e do il consenso<span
                         :class="{ 'text-red-500': errors.textMessage }"
                       >
@@ -203,8 +199,12 @@
                       ></label
                     >
                     <router-link to="/">Modifica consensi</router-link>
-                  </div>  
+                  </div>
                 </div>
+                <VeeErrorMessage
+                  name="textMessage"
+                  class="text-red-500 text-sm -mt-8"
+                />
 
                 <!-- BUTTON-->
                 <div class="flex flex-wrap -mx-3 mt-6">
