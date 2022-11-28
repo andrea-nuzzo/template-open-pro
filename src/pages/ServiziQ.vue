@@ -44,7 +44,7 @@
           </p>
           <!-- Accordion -->
           <h1 class="py-7">Accordion goes here.</h1>
-
+          <!-- Tesserandoti avrai a dispozione... -->
           <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 class="h2 mb-4">
               Tesserandoti avrai a disposizione questi strumenti:
@@ -53,7 +53,7 @@
 
           <!-- Items -->
           <div
-            class="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none"
+            class="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none py-7 mb-7 md:mb-10"
             data-aos-id-blocks
           >
             <!-- 1st item -->
@@ -181,6 +181,25 @@
               <p class="text-lg text-gray-400 text-center">
                 Puoi richiedere documenti e attivare servizi con un clic.
               </p>
+            </div>
+          </div>
+          <h2 class="h2 mb-4 pt-3" data-aos="fade-up">Chi può tesserarsi?</h2>
+          <p
+            class="text-xl text-gray-400 py-7"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            Professionisti, micro imprese, aziende e privati con intenzione di
+            aprire un'attività.
+          </p>
+          <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div data-aos="fade-up" data-aos-delay="400">
+              <router-link
+                to="/"
+                class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                href="#0"
+                >SCOPRI I VANTAGGI</router-link
+              >
             </div>
           </div>
         </div>
