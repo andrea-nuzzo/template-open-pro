@@ -202,9 +202,9 @@
               >
             </div>
           </div>
-                <!-- Kit del tesserato -->
-      <FeaturesZigzagQ class="pt-10" />
+          <!-- Kit del tesserato -->
         </div>
+        <FeaturesZigzagQ class="pt-10" />
       </div>
     </main>
 
