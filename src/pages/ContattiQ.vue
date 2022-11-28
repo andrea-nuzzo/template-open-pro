@@ -16,7 +16,7 @@
       <!-- Page sections -->
       <HeroAboutQ :title="'CONTATTI'" />
       <div class="flex flex-col lg:flex-row lg:justify-between w-full">
-        <section class="relative bg-red-500 lg:w-1/2">
+        <section class="relative lg:w-1/2">
           <div class="max-w-6xl mx-auto px-4 sm:px-6 relative">
             <div class="pt-32 pb-12 md:pt-40 md:pb-20">
               <!-- Page header -->
@@ -31,61 +31,99 @@
                 v-slot="{ errors }"
               >
                 <!-- Container first name and last name-->
-                <div class="flex flex-wrap -mx-3 mb-4">
-                  <!-- First name-->
-                  <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
-                    <label
-                      class="block text-gray-200 text-sm font-medium mb-1"
-                      for="firstName"
-                      >Nome<span :class="{ 'text-red-500': errors.firstName }">
-                        *</span
-                      ></label
+                <!-- <div class="flex flex-wrap -mx-3 mb-4"> -->
+                <!-- Motivo contatto -->
+                <div class="w-full mb-4 md:mb-0">
+                  <label
+                    class="block text-gray-200 text-sm font-medium mb-1"
+                    for="contactType"
+                    >Motivo del contatto<span
+                      :class="{ 'text-red-500': errors.contactType }"
                     >
+                      *</span
+                    ></label
+                  >
 
-                    <VeeField
-                      v-model="form.firstName"
-                      rules="required|min:3"
-                      name="firstName"
-                      id="firstName"
-                      type="text"
-                      :class="{ 'border-red-500': errors.firstName }"
-                      class="form-input w-full text-gray-200"
-                      placeholder="Nome"
-                      label="Nome"
-                    />
-                    <VeeErrorMessage
-                      name="firstName"
-                      class="text-red-500 text-sm mt-2"
-                    />
-                  </div>
-
-                  <!-- Last Name-->
-                  <div class="w-full md:w-1/2 px-3">
-                    <label
-                      class="block text-gray-200 text-sm font-medium mb-1"
-                      for="lastName"
-                    >
-                      Cognome<span :class="{ 'text-red-500': errors.lastName }">
-                        *</span
-                      ></label
-                    >
-                    <VeeField
-                      rules="required|min:3"
-                      v-model="form.lastName"
-                      name="lastName"
-                      id="lastName"
-                      type="text"
-                      :class="{ 'border-red-500': errors.lastName }"
-                      class="form-input w-full text-gray-200"
-                      placeholder="Cognome"
-                      label="Cognome"
-                    />
-                    <VeeErrorMessage
-                      name="lastName"
-                      class="text-red-500 text-sm mt-2"
-                    />
-                  </div>
+                  <VeeField
+                    as="select"
+                    v-model="form.contactType"
+                    rules="required"
+                    name="contactType"
+                    id="contactType"
+                    :class="{ 'border-red-500': errors.contactType }"
+                    class="form-input w-full text-gray-200"
+                    placeholder="MOTIVO DEL CONTATTO"
+                    label="Il motivo del contatto è richiesto"
+                  >
+                    <option value="" disabled>MOTIVO DEL CONTATTO</option>
+                    <option value="richiesta-informazioni">
+                      Richiesta informazioni
+                    </option>
+                    <option value="tesseramento">Tesseramento</option>
+                    <option value="amministrazione">Amministrazione</option>
+                    <option value="ufficio-stampa">Ufficio stampa</option>
+                    <option value="partnership">Partnership</option>
+                  </VeeField>
+                  <VeeErrorMessage
+                    name="contactType"
+                    class="text-red-500 text-sm mt-2"
+                  />
                 </div>
+
+                <!-- First name-->
+                <div class="w-full mb-4 md:mb-0">
+                  <label
+                    class="block text-gray-200 text-sm font-medium mb-1"
+                    for="firstName"
+                    >Nome<span :class="{ 'text-red-500': errors.firstName }">
+                      *</span
+                    ></label
+                  >
+
+                  <VeeField
+                    v-model="form.firstName"
+                    rules="required|min:3"
+                    name="firstName"
+                    id="firstName"
+                    type="text"
+                    :class="{ 'border-red-500': errors.firstName }"
+                    class="form-input w-full text-gray-200"
+                    placeholder="Nome"
+                    label="Nome"
+                  />
+                  <VeeErrorMessage
+                    name="firstName"
+                    class="text-red-500 text-sm mt-2"
+                  />
+                </div>
+
+                <!-- Last Name-->
+                <div class="w-full">
+                  <label
+                    class="block text-gray-200 text-sm font-medium mb-1"
+                    for="lastName"
+                  >
+                    Cognome<span :class="{ 'text-red-500': errors.lastName }">
+                      *</span
+                    ></label
+                  >
+                  <VeeField
+                    rules="required|min:3"
+                    v-model="form.lastName"
+                    name="lastName"
+                    id="lastName"
+                    type="text"
+                    :class="{ 'border-red-500': errors.lastName }"
+                    class="form-input w-full text-gray-200"
+                    placeholder="Cognome"
+                    label="Cognome"
+                  />
+                  <VeeErrorMessage
+                    name="lastName"
+                    class="text-red-500 text-sm mt-2"
+                  />
+                </div>
+                <!-- </div> -->
 
                 <!-- Email-->
                 <div class="flex flex-wrap -mx-3 mb-4">
@@ -115,245 +153,57 @@
                   </div>
                 </div>
 
-                <!-- Container Password and Password Confirmation-->
-                <div class="flex flex-wrap -mx-3 mb-4">
-                  <!-- Password-->
-                  <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
-                    <label
-                      class="block text-gray-200 text-sm font-medium mb-1"
-                      for="password"
-                      >Password<span
-                        :class="{ 'text-red-500': errors.password }"
-                      >
-                        *</span
-                      ></label
-                    >
-                    <VeeField
-                      v-model="form.password"
-                      rules="required|min:8"
-                      name="password"
-                      id="password"
-                      type="password"
-                      :class="{ 'border-red-500': errors.password }"
-                      class="form-input w-full text-gray-200"
-                      placeholder="Password"
-                      label="Password"
-                    />
-                    <VeeErrorMessage
-                      name="password"
-                      class="text-red-500 text-sm mt-2"
-                    />
-                  </div>
-
-                  <!-- Password Confirmation-->
-                  <div class="w-full md:w-1/2 px-3">
-                    <label
-                      class="block text-gray-200 text-sm font-medium mb-1"
-                      for="passwordConfirmation"
-                      >Conferma Password<span
-                        :class="{ 'text-red-500': errors.passwordConfirmation }"
-                      >
-                        *</span
-                      ></label
-                    >
-                    <VeeField
-                      rules="confirmed:@password|required"
-                      name="passwordConfirmation"
-                      id="passwordConfirmation"
-                      type="password"
-                      :class="{ 'border-red-500': errors.passwordConfirmation }"
-                      class="form-input w-full text-gray-300"
-                      placeholder="Conferma Password"
-                      label="Conferma Password"
-                    />
-                    <VeeErrorMessage
-                      name="passwordConfirmation"
-                      class="text-red-500 text-sm mt-2"
-                    />
-                  </div>
-                </div>
-
-                <!-- Container Individuals Company and Professionals -->
-                <div class="w-full px-3">
+                <!-- Messaggio -->
+                <div class="w-full mb-4 md:mb-0">
                   <label
-                    class="block text-gray-200 text-sm font-medium mb-4"
-                    for="typeUsers"
-                  >
-                    Seleziona tra Privato Azienda o Professionista
-                    <span :class="{ 'text-red-500': errors.typeUsers }">
+                    class="block text-gray-200 text-sm font-medium mb-1"
+                    for="textMessage"
+                    >Testo<span :class="{ 'text-red-500': errors.textMessage }">
                       *</span
-                    >
-                  </label>
-                  <div class="flex flex-wrap justify-around -mx-3 mb-4">
-                    <!--Individuals-->
-                    <VeeField
-                      type="radio"
-                      id="individuals"
-                      rules="required|one_of:individuals,company,professionals"
-                      name="typeUsers"
-                      value="individuals"
-                      v-model="form.typeUsers"
-                      label="Tipo di Utente"
-                    />
-                    <label
-                      class="block text-gray-200 text-sm font-medium mb-1"
-                      for="individuals"
-                      >Privato</label
-                    >
+                    ></label
+                  >
 
-                    <!-- Company -->
-                    <VeeField
-                      type="radio"
-                      id="company"
-                      name="typeUsers"
-                      value="company"
-                      v-model="form.typeUsers"
-                    />
-                    <label
-                      class="block text-gray-200 text-sm font-medium mb-1"
-                      for="individuals"
-                      >Azienda</label
-                    >
-
-                    <!-- Professionals -->
-                    <VeeField
-                      type="radio"
-                      id="professionals"
-                      name="typeUsers"
-                      value="professionals"
-                      v-model="form.typeUsers"
-                    />
-                    <label
-                      class="block text-gray-200 text-sm font-medium mb-1"
-                      for="individuals"
-                      >Professionista</label
-                    >
-                  </div>
-                  <VeeErrorMessage
-                    name="typeUsers"
-                    class="text-red-500 text-sm mt-2"
-                  />
+                  <VeeField
+                    as="textarea"
+                    v-model="form.textMessage"
+                    rules="required|max:500"
+                    name="textMessage"
+                    id="textMessage"
+                    :class="{ 'border-red-500': errors.textMessage }"
+                    class="form-input w-full text-gray-200"
+                    placeholder="Scrivi il tuo messaggio (max. 500 caratteri)"
+                    label="Testo"
+                  >
+                  </VeeField>
                 </div>
 
-                <!-- Vat number-->
-                <div class="flex flex-wrap -mx-3 mb-4">
-                  <div class="w-full px-3">
-                    <label
-                      class="block text-sm font-medium mb-1"
-                      :class="
-                        form.typeUsers === 'company' ||
-                        form.typeUsers === 'professionals'
-                          ? 'text-gray-200'
-                          : 'text-gray-300 '
-                      "
-                      for="vatNumber"
-                      >Partita IVA
-                      <span
-                        v-if="
-                          form.typeUsers === 'company' ||
-                          form.typeUsers === 'professionals'
-                        "
-                        :class="{ 'text-red-500': errors.email }"
-                      >
-                        *
-                      </span>
-                    </label>
-                    <VeeField
-                      :rules="
-                        form.typeUsers === 'company' ||
-                        form.typeUsers === 'professionals'
-                          ? 'required|isValidVatNumber'
-                          : ''
-                      "
-                      v-model="form.vatNumber"
-                      :disabled="
-                        form.typeUsers === 'individuals' ||
-                        form.typeUsers === null
-                      "
-                      name="vatNumber"
-                      id="vatNumber"
-                      type="number"
-                      :class="
-                        (errorBorder(errors.taxCode, 'vatNumber'),
-                        form.typeUsers === 'company' ||
-                        form.typeUsers === 'professionals'
-                          ? 'border-gray-200'
-                          : 'border-gray-300 ')
-                      "
-                      class="form-input w-full"
-                      :placeholder="
-                        form.typeUsers === 'company' ||
-                        form.typeUsers === 'professionals'
-                          ? 'Partita IVA'
-                          : ''
-                      "
-                      label="Partia IVA"
-                    />
+                <!-- Consenso -->
+                <div class="w-full flex flex-col md:flex-row mb-4 md:mb-0">
+                  <VeeField
+                    type="checkbox"
+                    v-model="form.consent"
+                    rules="required|max:500"
+                    name="consent"
+                    id="consent"
+                    :class="{ 'border-red-500': errors.consent }"
+                    class="form-input text-gray-200 w-2"
+                  />
+                  <div class="flex justify-between w-full">
                     <VeeErrorMessage
-                      name="vatNumber"
+                      name="textMessage"
                       class="text-red-500 text-sm mt-2"
                     />
-                  </div>
-                </div>
-
-                <!-- Tax Code-->
-                <div class="flex flex-wrap -mx-3 mb-4">
-                  <div class="w-full px-3">
                     <label
-                      class="block text-gray-200 text-sm font-medium mb-1"
-                      :class="
-                        form.typeUsers === 'individuals' ||
-                        form.typeUsers === 'professionals'
-                          ? 'text-gray-200'
-                          : 'text-gray-300 '
-                      "
-                      for="taxCode"
-                      >Codice Fiscale
-                      <span
-                        v-if="
-                          form.typeUsers === 'individuals' ||
-                          form.typeUsers === 'professionals'
-                        "
-                        :class="{ 'text-red-500': errors.taxCode }"
+                      class="block text-gray-200 text-sm font-medium mb-1 ml-2 md:ml-3"
+                      for="textMessage"
+                      >Accetto e do il consenso<span
+                        :class="{ 'text-red-500': errors.textMessage }"
                       >
                         *</span
-                      >
-                    </label>
-                    <VeeField
-                      v-model="form.taxCode"
-                      :rules="
-                        form.typeUsers === 'individuals' ||
-                        form.typeUsers === 'professionals'
-                          ? 'required|isValidTaxCode'
-                          : ''
-                      "
-                      :disabled="
-                        form.typeUsers === 'company' || form.typeUsers === null
-                      "
-                      name="taxCode"
-                      id="taxCode"
-                      type="text"
-                      :class="
-                        (errorBorder(errors.taxCode, 'taxCode'),
-                        form.typeUsers === 'individuals' ||
-                        form.typeUsers === 'professionals'
-                          ? 'border-gray-200'
-                          : 'border-gray-300 ')
-                      "
-                      class="form-input w-full text-gray-200"
-                      :placeholder="
-                        form.typeUsers === 'individuals' ||
-                        form.typeUsers === 'professionals'
-                          ? 'Codice Fiscale'
-                          : ''
-                      "
-                      label="Codice Fiscale"
-                    />
-                    <VeeErrorMessage
-                      name="taxCode"
-                      class="text-red-500 text-sm mt-2"
-                    />
-                  </div>
+                      ></label
+                    >
+                    <router-link to="/">Modifica consensi</router-link>
+                  </div>  
                 </div>
 
                 <!-- BUTTON-->
@@ -362,7 +212,7 @@
                     <button
                       class="btn text-white bg-purple-600 hover:bg-purple-700 w-full"
                     >
-                      Acquista ora
+                      INVIA
                     </button>
                   </div>
                 </div>
@@ -372,7 +222,9 @@
         </section>
         <section class="relative bg-blue-500 lg:w-1/2">
           <div class="max-w-6xl mx-auto px-4 sm:px-6 relative">
-            <div class="pt-32 pb-12 md:pt-40 md:pb-20 flex justify-end flex-wrap">
+            <div
+              class="pt-32 pb-12 md:pt-40 md:pb-20 flex justify-end flex-wrap"
+            >
               <img
                 src="../images/logo/quisviluppo.svg"
                 width="350"
@@ -409,11 +261,13 @@ export default {
   data() {
     return {
       form: {
+        contactType: null,
+        consent: false,
         type: null,
         firstName: null,
         lastName: null,
         email: null,
-        password: null,
+        textMessage: null,
         typeUsers: null,
         vatNumber: null,
         taxCode: null,
