@@ -36,7 +36,7 @@
                   </h3>
                   <p class="text-lg text-gray-400 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua.</p>
                   <div>
-                    <router-link class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" :to="`${service.slug}`">
+                    <router-link class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6 rounded-full" :to="`${service.slug}`">
                       <router-link :to="`/${service.slug}`" class="text-sm">Scopri</router-link>
                       <svg class="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 5H0v2h6v4l6-5-6-5z" />
@@ -223,7 +223,7 @@
           <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div data-aos="fade-up" data-aos-delay="400">
               <router-link
-                  class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                  class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 rounded-full"
                   to="/subscription"
               >TESSERATI ORA</router-link
               >

@@ -151,7 +151,7 @@
           >
             <div data-aos="fade-up" data-aos-delay="400">
               <a
-                class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                class="btn rounded-full text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
                 href="#0"
                 >{{ctaText1}}</a
               >
@@ -302,7 +302,7 @@
           >
             <div data-aos="fade-up" data-aos-delay="400">
               <a
-                class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                class="btn rounded-full text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
                 href="#0"
                 >{{ctaText2}}</a
               >

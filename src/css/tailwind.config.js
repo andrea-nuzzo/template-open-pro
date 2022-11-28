@@ -7,6 +7,7 @@ module.exports = {
     backgroundImage: {
       'pack-train': "url('../src/images/quisv-home-hero1-xl.webp')",
       'riportare': "url('../src/images/quisv-home-centrale-xl.webp')",
+      'kit-tesserato': "url('../src/images/Bg-kit-tesserato.webp')",
     },
     extend: {
       colors: {

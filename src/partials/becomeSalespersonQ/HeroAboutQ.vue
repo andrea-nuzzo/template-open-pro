@@ -3,7 +3,7 @@
 
     <!-- Background image -->
     <div class="absolute inset-0">
-      <img class="w-full h-full object-cover" src="../../images/about-hero.jpg" width="1440" height="394" alt="About" />
+      <img class="w-full h-full object-cover" src="../../images/Tesseramento-mobile-minihero.webp" width="1440" height="394" alt="About" />
       <div class="absolute inset-0 bg-gray-900 opacity-50" aria-hidden="true"></div>
     </div>
 

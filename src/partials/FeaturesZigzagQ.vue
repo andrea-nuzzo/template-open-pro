@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="bg-kit-tesserato">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="py-12 md:py-20">
         <!-- Section header -->
@@ -18,7 +18,7 @@
             >
               <img
                 class="max-w-full mx-auto md:max-w-none h-auto"
-                src="https://picsum.photos/500/500"
+                src="../images/kit-tessera.webp"
                 width="540"
                 height="405"
                 alt="Features 02"
@@ -30,7 +30,7 @@
               data-aos="fade-left"
             >
               <div class="md:pl-4 lg:pl-12 xl:pl-16">
-                <ul class="text-lg text-gray-400 -mb-2">
+                <ul class="text-lg text-gray-200 -mb-2">
                   <li class="flex items-start mb-2">
                     1.
                     <span class="pl-2">
@@ -64,7 +64,7 @@
           <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div data-aos="fade-up" data-aos-delay="400">
               <router-link
-                class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                class="btn rounded-full text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
                 to="/subscription"
                 >TESSERATI ORA</router-link>
             </div>

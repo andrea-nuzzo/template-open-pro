@@ -95,7 +95,7 @@
       <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
         <div data-aos="fade-up" data-aos-delay="400">
           <a
-            class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+            class="btn rounded-full text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
             href="#0"
             >SCOPRI TUTTI I SERVIZI</a
           >
@@ -128,7 +128,7 @@
           <div data-aos="fade-up" data-aos-delay="400">
             <router-link
               to="/tesserati"
-              class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+              class="btn rounded-full text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
               href="#0"
               >TESSERATI ORA</router-link
             >
@@ -165,7 +165,7 @@
           <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div data-aos="fade-up" data-aos-delay="400">
               <a
-                class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                class="btn rounded-full text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
                 href="#0"
                 >FACCIAMO RETE PER VINCERE</a
               >
@@ -197,7 +197,7 @@
         <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
           <div data-aos="fade-up" data-aos-delay="400">
             <a
-              class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+              class="btn rounded-full text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
               href="#0"
               >VAI AL BLOG</a
             >
