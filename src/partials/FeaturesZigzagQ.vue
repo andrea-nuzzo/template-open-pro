@@ -13,7 +13,7 @@
           <div class="md:grid md:grid-cols-12 md:gap-6 items-center">
             <!-- Image -->
             <div
-              class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:rtl"
+              class="max-w-xl md:max-w-none md:col-span-7 mb-8 md:mb-0 md:rtl"
               data-aos="fade-up"
             >
               <img
@@ -26,7 +26,7 @@
             </div>
             <!-- Content -->
             <div
-              class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+              class="max-w-xl sm:mx-auto md:max-w-none mx-auto md:col-span-5"
               data-aos="fade-left"
             >
               <div class="md:pl-4 lg:pl-12 xl:pl-16">
@@ -63,11 +63,10 @@
           </div>
           <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div data-aos="fade-up" data-aos-delay="400">
-              <a
+              <router-link
                 class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
-                href="#0"
-                >TESSERATI ORA</a
-              >
+                to="/subscription"
+                >TESSERATI ORA</router-link>
             </div>
           </div>
         </div>
