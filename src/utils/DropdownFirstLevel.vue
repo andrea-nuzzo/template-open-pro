@@ -1,20 +1,20 @@
 <template>
   <li
-    class="relative"
+    class="relative "
     @mouseenter="dropdownOpen = true"
     @mouseleave="dropdownOpen = false"
     @focusin="dropdownOpen = true"
     @focusout="dropdownOpen = false"
   >
     <a
-      class=" text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+      class=" flex justify-between group text-gray-300 hover:text-purple-600 px-4 py-2 flex items-center transition duration-150 ease-in-out"
       href="#0"
       aria-haspopup="true"
       aria-expanded={dropdownOpen}
       @click.prevent
     >
       {{title}}
-      <svg class="w-3 h-3 fill-current text-gray-200 cursor-pointer ml-1 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+      <svg class="w-3 h-3 fill-current text-gray-300 cursor-pointer ml-1 shrink-0 group-hover:-rotate-90 transition duration-150 ease-in-out " viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
         <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
       </svg>
     </a>
@@ -26,7 +26,7 @@
       leave-from-class="opacity-100"
       leave-to-class="opacity-0"
     >
-      <ul v-show="dropdownOpen" class=" w-60 absolute bg-gray-800  rounded-md rounded-tr-none rounded-br-none">
+      <ul v-show="dropdownOpen" class=" flex-col absolute w-80 top-0 left-full bg-gray-800 p-2 rounded-md rounded-tl-none rounded-bl-none">
         <slot />
       </ul>
     </transition>
