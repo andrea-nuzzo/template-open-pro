@@ -66,7 +66,7 @@
           </li>
           <li class="flex md:justify-start order-3 md:order-5">
             <div
-              class="inline-flex items-center relative right-2 md:right-3 justify-center py-1 px-3 text-sm font-semibold w-10 h-10 text-green-600 bg-green-200 rounded-full"
+              class="inline-flex items-center relative right-3 md:right-5 justify-center py-1 px-3 text-sm font-semibold w-10 h-10 text-green-600 bg-green-200 rounded-full"
             >
               3
             </div>
