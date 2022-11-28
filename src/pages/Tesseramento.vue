@@ -41,42 +41,36 @@
       <!-- Kit del tesserato -->
       <FeaturesZigzagQ />
       <FaqsShortQ />
-      
-      <HeroFeaturesQ />
-      <div class="w-full flex items-center justify-center pt-6 md:pt-8 lg:pt-12 pl-20 pr-20">
-        <div
-          class="relative flex items-center"
-          data-aos="fade-up"
-          data-aos-anchor="[data-aos-id-blocks]"
-        >
-          <svg
-            class="w-16 h-16 mb-4 pr-4"
-            viewBox="0 0 64 64"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect
-              class="fill-current text-purple-600"
-              width="64"
-              height="64"
-              rx="32"
-            />
-            <path
-              class="stroke-current text-purple-100"
-              d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924"
-              stroke-linecap="square"
-              stroke-width="2"
-              fill="none"
-              fill-rule="evenodd"
-            />
-            <path
-              class="stroke-current text-purple-300"
-              d="M43 42h-9M43 37h-9"
-              stroke-linecap="square"
-              stroke-width="2"
-            />
-          </svg>
-          <h4 class="h4 mb-2 text-center">La tua area riservata sarà attivata e operativa dal 1 gennaio 2023.</h4>
 
+      <HeroFeaturesQ />
+      <!-- Se rientri fra queste categorie -->
+      <div class="relative pt-32 pb-12 md:pt-40 md:pb-20">
+        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <h3 class="h3 mb-4" data-aos="fade-up">
+            Se rientri tra queste categorie:
+          </h3>
+          <p class="text-gray-400 my-5 py-5" data-aos="fade-up" data-aos-delay="200">
+            Avvocato | Commercialista | Notaio | Tributarista | Consulente del
+            lavoro | Esperto di finanza agevolata | Freelance nel marketing e
+            nella comunicazione | Webmaster | Social media manager
+          </p>
+          <h4 class="h4 mb-7 py-7" data-aos="fade-up">
+            puoi proporti come Partner Tecnico.
+          </h4>
+          <!-- Image -->
+          <img
+            class="mx-auto"
+            src="https://picsum.photos/id/237/700/450"
+            width="768"
+            height="432"
+            alt="Hero"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          />
+          <p class="text-gray-400 my-5 py-5" data-aos="fade-up" data-aos-delay="200">
+            Nella pagina Diventa Partner Tecnico trovi tutti i vantaggi dedicati
+            ai professionisti.
+          </p>
         </div>
       </div>
     </main>
