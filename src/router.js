@@ -13,8 +13,8 @@ import ResetPassword from './pages/ResetPassword.vue'
 import PageNotFound from './pages/PageNotFound.vue'
 import becomeSalesperson from "./pages/BecomeSalespersonQ.vue";
 import subscription from "./pages/SubscriptionQ.vue";
-import Success from "./pages/payments/Success.vue";
-import Cancel from "./pages/payments/Cancel.vue";
+import Servizio from "./pages/ServizioQ.vue";
+import data from "./data/servizi.json";
 
 const routerHistory = createWebHistory()
 
@@ -43,15 +43,6 @@ const router = createRouter({
       component: Pricing
     },
     {
-      path: '/success',
-      component: Success
-    },
-    {
-      path: '/cancel',
-      component: Cancel
-    },
-
-    {
       path: '/blog',
       component: Blog
     },
@@ -72,12 +63,32 @@ const router = createRouter({
       component: Help
     },
     {
-      path: '/diventa-rappresentante',
+      path: '/diventa-rappresentante/:token?',
       component: becomeSalesperson,
     },
     {
       path: '/subscription',
       component: subscription,
+    },
+    {
+      path: '/:slug',
+      name:'Servizio',
+      component: Servizio,
+
+      beforeEnter (to, from, next) {
+        const exists = data.servizi.find(servizi => servizi.slug === to.params.slug)
+
+        if (exists) {
+          return next()
+        } else {
+          next({
+            name: 'PageNotFound',
+            params: {pathMatch: to.path.substring(1).split('/')},
+            query: to.query,
+            hash: to.hash,
+          })
+        }
+      }
     },
     {
       path: '/signin',
@@ -92,7 +103,8 @@ const router = createRouter({
       component: ResetPassword
     },
     {
-      path: '/:pathMatch(.*)*',
+      path: '/:NotFound(.*)*',
+      name:'PageNotFound',
       component: PageNotFound
     }
   ]
