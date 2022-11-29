@@ -64,7 +64,32 @@
               </p>
             </div>
           </section>
-          <section></section>
+          <section class="flex justify-end">
+            <div
+              class="flex flex-col items-end"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h4 class="h4 mb-5">
+                Nasce la soluzione perfetta: Quisviluppo.com
+              </h4>
+              <p class="text-right">
+                Come riportare le persone a comprare nei negozi. Rendendo le
+                economie locali molto più competitive e capaci di superare i
+                benefici ottenuti acquistando dai colossi delle vendite online.
+                Abbiamo creato strumenti web ad hoc e stravolto il modo di
+                vendere, spedire, gestire e fare promozione. Diamo, anche,
+                grande importanza alle competenze professionali.
+              </p>
+            </div>
+            <div
+            data-aos="fade-right"
+              data-aos-delay="200"
+              class="inline-flex items-center relative left-2 md:left-3 justify-center py-3 px-4 text-sm font-semibold w-8 h-8 text-white bg-black rounded-full"
+            >
+              1
+            </div>
+          </section>
         </div>
       </div>
     </main>
