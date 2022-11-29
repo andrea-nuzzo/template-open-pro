@@ -4,7 +4,7 @@
       <div class="py-12 lg:pt-0">
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12">
-          <h2 class="h2">tesserarsi è semplice</h2>
+          <h2 class="h2">Tesserarsi è semplice</h2>
         </div>
 
         <!-- Faqs -->
