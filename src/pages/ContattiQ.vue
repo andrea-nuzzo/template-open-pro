@@ -167,7 +167,7 @@
                     name="textMessage"
                     id="textMessage"
                     :class="{ 'border-red-500': errors.textMessage }"
-                    class="form-input w-full text-gray-200"
+                    class="form-input w-full text-gray-200 h-[200px] md:h-[300px]"
                     placeholder="Scrivi il tuo messaggio (max. 500 caratteri)"
                     label="Testo"
                   >
@@ -222,7 +222,7 @@
             <div class="pt-32 pb-12 md:pt-40 md:pb-20 flex justify-end">
               <img
                 src="../images/logo/quisviluppo.svg"
-                width="350"
+                class="w-[200px] md:w-[300px] lg:w-[350px]"
                 alt="quisviluppo-logo"
               />
             </div>
@@ -233,7 +233,7 @@
                 <p class="pb-6">Via S. Agostino 12 - 63066 Grottammare (AP)</p>
                 <p>P.IVA / C.F. 02446480440</p>
               </div>
-              <ul class="flex justify-end pb-18 md:pb-24 lg:pb-28">
+              <ul class="flex justify-end pb-16 md:pb-24 lg:pb-28">
                 <li class="ml-4">
                   <router-link
                     to="#"
@@ -314,6 +314,13 @@
               <img class="mr-5" src="https://picsum.photos/60/60" alt="img">
               <div class="flex flex-col">
                 <h3 class="h3 text-green-500">0735.740710</h3>
+                <small>08:00 - 18:00 da lunedì a venerdì</small>
+              </div>
+            </div>
+            <div class="w-full border border-green-500 p-5 flex mt-7">
+              <img class="mr-5" src="https://picsum.photos/60/60" alt="img">
+              <div class="flex flex-col">
+                <h3 class="h3 text-green-500">339.463 98 91</h3>
                 <small>08:00 - 18:00 da lunedì a venerdì</small>
               </div>
             </div>
