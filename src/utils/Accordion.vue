@@ -5,11 +5,11 @@
       @click.prevent="toggleAccordion(accordionOpen)"
       :aria-expanded="accordionOpen"
     >
-      <svg class="w-4 h-4 fill-current text-blue-500 shrink-0 mr-8 -ml-12" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <svg class="w-4 h-4 fill-current text-purple-600 shrink-0 mr-8 -ml-12" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
         <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': accordionOpen}" />
         <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': accordionOpen}" />
       </svg>
-      <span>{{title}}</span>
+      <span class="uppercase font-bold">{{title}}</span>
     </button>
     <div
       ref="accordion"
