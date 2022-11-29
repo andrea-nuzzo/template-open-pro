@@ -155,7 +155,7 @@
           <!-- Customer sector toggle -->
           <div class="flex justify-start mb-4" data-aos="fade-up" data-aos-delay="400">
             <div class="inline-flex items-center">
-              <div class="text-gray-500 font-medium mr-3">Portafoglio Clienti</div>
+              <div class="text-gray-200 font-medium mr-3">Portafoglio Clienti</div>
               <div class="form-switch">
                 <input type="checkbox" name="pricing-toggle" id="pricing-toggle" class="sr-only" v-model="customerPortfolio" />
                 <label class="bg-gray-600" for="pricing-toggle">
@@ -170,7 +170,8 @@
 
             <!-- Industry Sector-->
             <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
-              <label class="block text-gray-200 text-sm font-medium mb-1" for="industrySector">Settore Merceologico<span :class="{'text-red-500' : errors.industrySector}"> *</span></label>
+              <label v-if="!customerPortfolio" class="block text-gray-300 text-sm font-medium mb-1" for="industrySector">Settore Merceologico</label>
+              <label v-else class="block text-gray-200 text-sm font-medium mb-1" for="industrySector">Settore Merceologico<span :class="{'text-red-500' : errors.industrySector}"> *</span></label>
               <VeeField name="industrySector"
                         as="select"
                         id="industrySector"
@@ -178,7 +179,7 @@
                         :disabled="!customerPortfolio"
                         :rules="customerPortfolio ? 'required' : ''"
                         :class="{'border-red-500' : errors.industrySector}"
-                        class="form-select w-full text-gray-200"
+                        class="form-select w-full text-gray-200 disabled:border-gray-300"
                         label="Settore Merceologico"
                         placeholder="Settore Merceologico"
               >
@@ -190,7 +191,8 @@
 
             <!-- Number of Customers-->
             <div class="w-full md:w-1/2 px-3">
-              <label class="block text-gray-200 text-sm font-medium mb-1" for="numberCustomers">Numero Clienti<span :class="{'text-red-500' : errors.numberCustomers}"> *</span></label>
+              <label v-if="!customerPortfolio" class="block text-gray-300 text-sm font-medium mb-1" for="numberCustomers">Numero Clienti</label>
+              <label v-else class="block text-gray-200 text-sm font-medium mb-1" for="numberCustomers">Numero Clienti<span :class="{'text-red-500' : errors.numberCustomers}"> *</span></label>
               <VeeField
                   v-model="form.numberCustomers"
                   :disabled="!customerPortfolio"
@@ -199,7 +201,7 @@
                   id="numberCustomers"
                   type="number"
                   :class="{'border-red-500' : errors.numberCustomers}"
-                  class="form-input w-full text-gray-300"
+                  class="form-input w-full text-gray-300 disabled:border-gray-300"
                   placeholder="Numero Clienti"
                   label="Numero Clienti"/>
               <VeeErrorMessage name="numberCustomers" class="text-red-500 text-sm mt-2"/>
@@ -211,14 +213,16 @@
 
             <!-- Area toggle -->
             <div class="inline-flex items-center">
-              <div class="text-gray-200 font-medium mr-3">Copertura Regionale</div>
+              <div v-if="!customerPortfolio" class="text-gray-300 font-medium mr-3">Copertura Regionale</div>
+              <div v-else class="text-gray-200 font-medium mr-3">Copertura Regionale</div>
               <div class="form-switch">
                 <input :disabled="!customerPortfolio" type="checkbox" name="area-toggle" id="area-toggle" class="sr-only" v-model="areaToggle" />
                 <label class="bg-gray-600" for="area-toggle">
                   <span class="bg-gray-100" aria-hidden="true"></span>
                 </label>
               </div>
-              <div class="text-gray-200 font-medium ml-3">Copertura Provinciale</div>
+              <div v-if="!customerPortfolio" class="text-gray-300 font-medium ml-3">Copertura Provinciale</div>
+              <div v-else class="text-gray-200 font-medium ml-3">Copertura Provinciale</div>
             </div>
           </div>
 
@@ -227,7 +231,8 @@
 
             <!-- Region-->
             <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
-              <label class="block text-gray-200 text-sm font-medium mb-1" for="region">Regione<span :class="{'text-red-500' : errors.region}"> *</span></label>
+              <label v-if="!customerPortfolio || areaToggle" class="block text-gray-300 text-sm font-medium mb-1" for="region">Regione</label>
+              <label v-else class="block text-gray-200 text-sm font-medium mb-1" for="region">Regione<span :class="{'text-red-500' : errors.region}"> *</span></label>
               <VeeField name="region"
                         as="select"
                         id="region"
@@ -235,19 +240,20 @@
                         :disabled="!customerPortfolio || areaToggle"
                         :rules="customerPortfolio ? 'required' : ''"
                         :class="{'border-red-500' : errors.region}"
-                        class="form-select w-full text-gray-200"
+                        class="form-select w-full text-gray-200 disabled:border-gray-300"
                         label="Regione"
                         placeholder="Regione"
               >
                 <option value="">Regione</option>
                 <option v-for="item in region" :key="item.id" :value="item.nome">{{ item.nome }}</option>
               </VeeField>
-              <VeeErrorMessage name="region" class="text-red-500 text-sm mt-2"/>
+              <VeeErrorMessage v-if="customerPortfolio && !areaToggle" name="region" class="text-red-500 text-sm mt-2"/>
             </div>
 
             <!-- Province-->
             <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
-              <label class="block text-gray-200 text-sm font-medium mb-1" for="province">Provincia<span :class="{'text-red-500' : errors.province}"> *</span></label>
+              <label v-if="!customerPortfolio || !areaToggle" class="block text-gray-300 text-sm font-medium mb-1" for="province">Provincia</label>
+              <label v-else class="block text-gray-200 text-sm font-medium mb-1" for="province">Provincia<span :class="{'text-red-500' : errors.province}"> *</span></label>
               <VeeField name="province"
                         as="select"
                         id="province"
@@ -255,13 +261,13 @@
                         :disabled="!customerPortfolio || !areaToggle"
                         :rules="customerPortfolio ? 'required' : ''"
                         :class="{'border-red-500' : errors.province}"
-                        class="form-select w-full text-gray-200"
+                        class="form-select w-full text-gray-200 disabled:border-gray-300"
                         label="Provincia"
               >
                 <option value="">Provincia</option>
                 <option v-for="item in province" :key="item.id" :value="item.nome">{{ item.nome }}</option>
               </VeeField>
-              <VeeErrorMessage name="province" class="text-red-500 text-sm mt-2"/>
+              <VeeErrorMessage v-if="customerPortfolio && areaToggle" name="province" class="text-red-500 text-sm mt-2"/>
             </div>
           </div>
 
@@ -269,13 +275,18 @@
           <div class="flex flex-wrap -mx-3 mb-4">
             <div class="w-full px-3">
 
-              <label
-                  class="block text-sm font-medium mb-1"
+              <label v-if="!customerPortfolio"
+                  class="block text-sm font-medium mb-1 text-gray-300"
                   for="vatNumber">Partita IVA
-                <span
-                    :class="{'text-red-500' : errors.email}"> *
-                    </span>
               </label>
+              <label v-else
+              class="block text-sm font-medium mb-1 text-gray-200"
+              for="vatNumber">Partita IVA
+            <span
+                :class="{'text-red-500' : errors.email}"> *
+                </span>
+          </label>
+
               <VeeField
                   :rules="customerPortfolio ? 'required|isValidVatNumber' : ''"
                   v-model="form.vatNumber"
@@ -284,7 +295,7 @@
                   id="vatNumber"
                   type="number"
                   :class="{'border-red-500' : errors.province}"
-                  class="form-input w-full"
+                  class="form-input w-full disabled:border-gray-300 "
                   placeholder="Partita IVA"
                   label="Partia IVA"/>
               <VeeErrorMessage name="vatNumber" class="text-red-500 text-sm mt-2"/>
@@ -296,9 +307,11 @@
           <div class="flex flex-wrap -mx-3 mb-4">
             <div class="w-full px-3">
               <label class="flex items-center">
-                <input type="checkbox" class="form-checkbox" />
-                <span class="text-gray-400 ml-2">I agree to the privacy policy</span>
+                <VeeField rules="isChecked" type="checkbox" name="consent" id="consent" class="form-checkbox" />
+                <span class="text-gray-200 ml-2">Accetto e do il consenso *</span>
+               
               </label>
+              <VeeErrorMessage name="consent" class=" block text-red-500 text-sm mt-2"/>
             </div>
           </div>
 
