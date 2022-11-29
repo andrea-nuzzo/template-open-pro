@@ -27,7 +27,7 @@
               <!-- Contact form -->
               <VeeForm
                 class="max-w-xl mx-auto flex flex-col gap-4"
-                @submit="submit()"
+                @submit="submitFormHandler"
                 v-slot="{ errors }"
               >
                 <!-- Motivo contatto -->
@@ -178,17 +178,21 @@
                 <div class="w-full flex flex-col md:flex-row mb-4 md:mb-0">
                   <VeeField
                     type="checkbox"
-                    v-model="form.consent"
-                    rules="required|max:500"
+                    rules="isChecked"
+                    :value="false"
                     name="consent"
                     id="consent"
                     :class="{ 'border-red-500': errors.consent }"
-                    class="form-input text-gray-200 w-2"
+                    class="text-purple-600"
                     label="Consenso"
                   />
-                  <div class="flex justify-between w-full">
+                  <VeeErrorMessage
+                    name="consent"
+                    class="text-red-500 text-sm"
+                  />
+                  <div class="flex justify-between items-center w-full">
                     <label
-                      class="block text-gray-200 text-sm font-medium mb-1 ml-2 md:ml-3"
+                      class="block text-gray-200 text-sm font-medium mb-1 ml-1 md:ml-2"
                       for="consent"
                       >Accetto e do il consenso<span
                         :class="{ 'text-red-500': errors.consent }"
@@ -199,7 +203,6 @@
                     <router-link to="/">Modifica consensi</router-link>
                   </div>
                 </div>
-                <VeeErrorMessage name="consent" class="text-red-500 text-sm" />
 
                 <!-- BUTTON-->
                 <div class="flex flex-wrap -mx-3 mt-6">
@@ -271,7 +274,7 @@
                       />
                     </svg>
                   </router-link>
-                </li> 
+                </li>
                 <li class="ml-4">
                   <router-link
                     to="#"
@@ -308,23 +311,27 @@
                   </router-link>
                 </li>
               </ul>
-              <h4 class="h4 flex justify-end pb-16 md:pb-22 lg:pb-26">Scorciatoie.</h4>
+              <h4 class="h4 flex justify-end pb-16 md:pb-22 lg:pb-26">
+                Scorciatoie.
+              </h4>
             </div>
             <div class="w-full border border-green-500 p-5 flex">
-              <img class="mr-5" src="https://picsum.photos/60/60" alt="img">
+              <img class="mr-5" src="https://picsum.photos/60/60" alt="img" />
               <div class="flex flex-col">
                 <h3 class="h3 text-green-500">0735.740710</h3>
                 <small>08:00 - 18:00 da lunedì a venerdì</small>
               </div>
             </div>
             <div class="w-full border border-green-500 p-5 flex mt-7">
-              <img class="mr-5" src="https://picsum.photos/60/60" alt="img">
+              <img class="mr-5" src="https://picsum.photos/60/60" alt="img" />
               <div class="flex flex-col">
                 <h3 class="h3 text-green-500">339.463 98 91</h3>
                 <small>08:00 - 18:00 da lunedì a venerdì</small>
               </div>
             </div>
-            <h4 class="h4 flex justify-end py-16 md:py-22 lg:py-26">Link rapidi.</h4>
+            <h4 class="h4 flex justify-end py-16 md:py-22 lg:py-26">
+              Link rapidi.
+            </h4>
             <h1>Accordion goes here.</h1>
           </div>
         </section>
@@ -357,19 +364,13 @@ export default {
     return {
       form: {
         contactType: null,
-        consent: false,
-        type: null,
         firstName: null,
         lastName: null,
         email: null,
         textMessage: null,
-        typeUsers: null,
-        vatNumber: null,
-        taxCode: null,
       },
     };
   },
-
   methods: {
     errorBorder(error, id) {
       if (error) {
@@ -377,6 +378,9 @@ export default {
         element.classList.remove("border-gray-200");
         element.classList.add("border-red-500");
       }
+    },
+    submitFormHandler() {
+      console.log(this.form);
     },
 
     goPayments() {
