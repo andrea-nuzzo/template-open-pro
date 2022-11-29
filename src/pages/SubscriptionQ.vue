@@ -143,11 +143,11 @@
 
                   <!-- Company -->
                   <VeeField type="radio" id="company" name="typeUsers" value="company" v-model="form.typeUsers"/>
-                  <label class="block text-gray-200 text-sm font-medium mb-1" for="individuals">Azienda</label>
+                  <label class="block text-gray-200 text-sm font-medium mb-1" for="company">Azienda</label>
 
                   <!-- Professionals -->
                   <VeeField type="radio" id="professionals" name="typeUsers" value="professionals" v-model="form.typeUsers"/>
-                  <label class="block text-gray-200 text-sm font-medium mb-1" for="individuals">Professionista</label>
+                  <label class="block text-gray-200 text-sm font-medium mb-1" for="professionals">Professionista</label>
                 </div>
                 <VeeErrorMessage name="typeUsers" class="text-red-500 text-sm mt-2"/>
               </div>
