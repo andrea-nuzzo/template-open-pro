@@ -24,6 +24,7 @@
             data-aos-anchor="[data-aos-id-tabs]"
           >
             <button
+              @click.stop.prevent="filterItem('all')"
               :class="'opacity-50'"
               class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500"
             >
@@ -33,6 +34,7 @@
               >
             </button>
             <button
+              @click.stop.prevent="filterItem(1)"
               :class="'opacity-50'"
               class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500"
             >
@@ -163,7 +165,7 @@
           <!-- Tabs items -->
           <div class="relative flex flex-col mt-16" data-aos="fade-up">
             <CardQ
-              v-for="card in cardItems"
+              v-for="card in cards"
               :key="card.title"
               :logo="card.logo"
               :title="card.title"
@@ -185,38 +187,45 @@ export default {
   },
   data() {
     return {
+      filteredItems: [],
       cardItems: [
         {
+          id: 1,
           logo: "https://picsum.photos/200/300",
           title: "Per tornare a comprare nei negozi",
           content:
             "È l’e-commerce per acquistare prodotti e servizi; trovare aziende e informazioni di qualunque tipo. Prenotare alberghi, mezzi di trasporto, ristoranti, ticket per eventi, ingressi a musei. E molto di più.",
         },
         {
+          id: 2,
           logo: "https://picsum.photos/200/300",
           title: "Per rafforzare il ruolo dei grossisti",
           content:
             "È il grande e-commerce dedicato alla vendita all’ingrosso di prodotti di qualunque categoria merceologica. Potranno effettuare acquisti solo i possessori di Partita Iva. Questo portale rappresenta uno dei tasselli in grado di far risorgere la competitività di prezzo delle economie locali rispetto agli e-commerce mondiali. Presto sveleremo tutto.",
         },
         {
+          id: 3,
           logo: "https://picsum.photos/200/300",
           title: "Per gestire tutto, tutti, anche da mobile",
           content:
             "È il gestionale web-based più personalizzabile che ci sia. Ottimo per ogni settore merceologico. Adatto a: PMI, professionisti e ditte individuali. Estrema attenzione nella sicurezza dei dati.",
         },
         {
+          id: 4,
           logo: "https://picsum.photos/200/300",
           title: "Per spedire in tempo reale",
           content:
             "È il portale specializzato nelle spedizioni a corto raggio (entro i 20 km), quasi in tempo reale (entro 2 ore) e nelle consegne a domicilio di cibi d’asporto. La merce partirà sempre dal tuo negozio o deposito.",
         },
         {
+          id: 5,
           logo: "https://picsum.photos/200/300",
           title: "Per vendere molto velocemente",
           content:
             "È il motore pubblicitario delle nostre piattaforme. Userà il passaparola digitale. Gli Sharer (gente comune, micro influencer e brand ambassador) guadagneranno su clic, iscrizioni e acquisti sugli e-commerce.",
         },
         {
+          id: 6,
           logo: "https://picsum.photos/200/300",
           title: "Per essere aggiornato ma anche protagonista",
           content:
@@ -224,6 +233,23 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    filterItem(item) {
+      console.log(item);
+      if (item !== "all") {
+        this.filteredItems = this.cardItems.filter((el) => {
+          return el.id === item;
+        });
+        return this.cardItems;
+      }
+    },
+  },
+  computed: {
+    cards() {
+      if (this.filteredItems.length === 0) return this.cardItems;
+      else return this.filteredItems;
+    },
   },
 };
 </script>
