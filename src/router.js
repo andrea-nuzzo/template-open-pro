@@ -6,6 +6,7 @@ import Blog from "./pages/Blog.vue";
 import BlogPost from "./pages/BlogPost.vue";
 import About from "./pages/About.vue";
 import ChiSiamo from "./pages/ChiSiamo.vue";
+import Contatti from "./pages/ContattiQ.vue";
 import Contact from "./pages/Contact.vue";
 import Help from "./pages/Help.vue";
 import SignIn from "./pages/SignIn.vue";
@@ -64,6 +65,10 @@ const router = createRouter({
     {
       path: "/contact",
       component: Contact,
+    },
+    {
+      path: "/contatti",
+      component: Contatti,
     },
     {
       path: "/help",
