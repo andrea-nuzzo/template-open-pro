@@ -23,8 +23,8 @@
                   name="taxCode"
                   id="taxCode"
                   type="text"
-                  :class="{'border-red-500' : errors.password}"
-                  class="form-input w-full border-gray-200 text-gray-200"
+                  :class="{'border-red-500' : errors.taxCode}"
+                  class="form-input w-full text-gray-200"
                   placeholder="Codice Fiscale"
                   label="Codice Fiscale"/>
               <VeeErrorMessage name="taxCode" class="text-red-500 text-sm mt-2"/>

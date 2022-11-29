@@ -15,6 +15,37 @@
       </div>
       <HeroAboutQ :title="destination.name" />
 
+      <!--Accordion-->
+      <section>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+          <div class="py-12 md:py-20">
+    
+            <!-- Section header -->
+            <div class="max-w-3xl mx-auto  pb-20">
+              <h2 class="h2">TITLE</h2>
+              <p class="text-lg text-gray-400 pt-8 md:pt-10 grow">{{destination.text}}</p>
+            </div>
+    
+            <!-- Faqs -->
+            <ul class="max-w-3xl mx-auto pl-12">
+              <Accordion v-for="(item,key, index) in destination.accordion" :key="index" :title="key">
+                <ul>
+                  <li class="mb-2" v-for="element in item" :key="element"> 
+                    <p v-if="typeof element == 'string'">{{element}}</p>
+                    <ul v-else class="ml-2 list-disc" v-for="dot in element" :key="dot">
+                      <li class="first-letter:uppercase">
+                        {{dot}}
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </Accordion>
+              <span class="block border-t border-gray-200" aria-hidden="true"></span>
+            </ul>
+    
+          </div>
+        </div>
+      </section>
       <!--Component CaseStudies-->
       <section>
         <div class="max-w-6xl mx-auto px-4 sm:px-6">
@@ -251,6 +282,7 @@ import Header from "./../partials/Header.vue";
 import PageIllustration from "../partials/PageIllustration.vue";
 import Footer from "./../partials/Footer.vue";
 import HeroAboutQ from "../partials/becomeSalespersonQ/HeroAboutQ.vue";
+import Accordion from '../utils/Accordion.vue';
 
 export default {
   name: "ServizioQ.vue",
@@ -261,7 +293,8 @@ export default {
     FaqsShortQ,
     Header,
     PageIllustration,
-    HeroAboutQ
+    HeroAboutQ,
+    Accordion
   },
 
   computed: {
