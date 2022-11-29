@@ -179,13 +179,13 @@
                   <VeeField
                     type="checkbox"
                     rules="isChecked"
-                    :value="false"
                     name="consent"
                     id="consent"
                     :class="{ 'border-red-500': errors.consent }"
                     class="text-purple-600"
                     label="Consenso"
                   />
+                  
                   <VeeErrorMessage
                     name="consent"
                     class="text-red-500 text-sm"
@@ -194,7 +194,7 @@
                     <label
                       class="block text-gray-200 text-sm font-medium mb-1 ml-1 md:ml-2"
                       for="consent"
-                      >Accetto e do il consenso<span
+                      >Accetto è do il consenso<span
                         :class="{ 'text-red-500': errors.consent }"
                       >
                         *</span
@@ -364,6 +364,7 @@ export default {
     return {
       form: {
         contactType: null,
+        content:null,
         firstName: null,
         lastName: null,
         email: null,

@@ -27,7 +27,7 @@ export default (app) => {
   });
 
   defineRule("isChecked", (value) => {
-    if (value) {
+    if (!value) {
       return true;
     }
     return "Devi accettare il trattamento dei dati personali";
