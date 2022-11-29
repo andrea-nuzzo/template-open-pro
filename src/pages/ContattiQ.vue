@@ -324,6 +324,8 @@
                 <small>08:00 - 18:00 da lunedì a venerdì</small>
               </div>
             </div>
+            <h4 class="h4 flex justify-end py-16 md:py-22 lg:py-26">Link rapidi.</h4>
+            <h1>Accordion goes here.</h1>
           </div>
         </section>
       </div>
