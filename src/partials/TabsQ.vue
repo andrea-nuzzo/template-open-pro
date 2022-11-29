@@ -53,6 +53,7 @@
               >
             </button>
             <button
+              @click.stop.prevent="filterItem(2)"
               :class="'opacity-50'"
               class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500"
             >
@@ -71,6 +72,7 @@
               >
             </button>
             <button
+              @click.stop.prevent="filterItem(3)"
               :class="'opacity-50'"
               class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500"
             >
@@ -89,6 +91,7 @@
               >
             </button>
             <button
+              @click.stop.prevent="filterItem(4)"
               :class="'opacity-50'"
               class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500"
             >
@@ -106,25 +109,9 @@
                 >Quilog.com</span
               >
             </button>
+
             <button
-              :class="'opacity-50'"
-              class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500"
-            >
-              <svg
-                class="w-4 h-4 fill-current text-purple-600 mr-2"
-                viewBox="0 0 16 16"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.936 6.007H8.358l1.594-4.685c.3-.997-.897-1.794-1.694-.997L.284 8.3c-.598.598-.199 1.694.698 1.694H7.56l-1.594 4.685c-.3.997.897 1.794 1.694.997L15.633 7.7c.598-.598.2-1.694-.697-1.694z"
-                />
-              </svg>
-              <span
-                class="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out"
-                >Quick action</span
-              >
-            </button>
-            <button
+              @click.stop.prevent="filterItem(5)"
               :class="'opacity-50'"
               class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500"
             >
@@ -143,6 +130,7 @@
               >
             </button>
             <button
+              @click.stop.prevent="filterItem(6)"
               :class="'opacity-50'"
               class="flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500"
             >
@@ -236,12 +224,12 @@ export default {
   },
   methods: {
     filterItem(item) {
-      console.log(item);
-      if (item !== "all") {
+      if (item === "all") {
+        this.filteredItems = this.cardItems;
+      } else {
         this.filteredItems = this.cardItems.filter((el) => {
           return el.id === item;
         });
-        return this.cardItems;
       }
     },
   },
