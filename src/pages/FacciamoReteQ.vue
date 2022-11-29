@@ -115,6 +115,12 @@
             </div>
           </section>
         </div>
+        <div
+          class="text-center pt-20 lg:pt-30 pb-12 md:pb-16"
+        >
+       
+          <TabsQ />
+        </div>
       </div>
     </main>
 
@@ -126,8 +132,8 @@
 <script>
 import Header from "./../partials/Header.vue";
 import PageIllustration from "../partials/PageIllustration.vue";
-
 import HeroAboutQ from "../partials/becomeSalespersonQ/HeroAboutQ.vue";
+import TabsQ from "../partials/TabsQ.vue";
 import Footer from "./../partials/Footer.vue";
 
 export default {
@@ -137,6 +143,7 @@ export default {
     PageIllustration,
     HeroAboutQ,
     Footer,
+    TabsQ,
   },
 };
 </script>
